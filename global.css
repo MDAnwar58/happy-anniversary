@@ -1,0 +1,41 @@
+body {
+   margin: 0;
+   line-height: normal;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+:root {
+   /* Fonts */
+   --font-quicksand: Quicksand;
+   --font-alpino-variable: "Alpino Variable";
+
+   /* font sizes */
+   --font-size-base: 16px;
+   --font-size-xl: 20px;
+   --font-size-13xl: 32px;
+   --font-size-19xl: 38px;
+   --font-size-21xl: 40px;
+   --font-size-32xl: 51px;
+   --font-size-45xl: 64px;
+   --font-size-98xl: 98px;
+   --font-size-109xl: 128px;
+
+   /* Colors */
+   --color-black: #000;
+   --color-gainsboro-100: #e2e2e2;
+   --color-indianred: #ea5362;
+   --color-palevioletred: #ea87be;
+   --color-white: #fff;
+
+   /* Paddings */
+   --padding-3xs: 10px;
+   --padding-21xl: 40px;
+   --padding-183xl: 202px;
+
+   /* Border radiuses */
+   --br-xl: 20px;
+   --br-21xl: 40px;
+   --br-41xl: 60px;
+   --br-101xl: 120px;
+}

@@ -1,0 +1,3917 @@
+.-space-x-5 > *:not(:last-child) {
+   margin-right: -3rem; /* negative horizontal space */
+}
+.hero {
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   max-width: 100%;
+   align-self: stretch;
+   flex-direction: row;
+   padding: 0 0 112px;
+   text-align: center;
+   font-size: var(--font-size-base);
+   color: var(--color-white);
+   font-family: var(--font-quicksand);
+}
+.hero,
+.hero-section {
+   box-sizing: border-box;
+   flex-shrink: 0;
+}
+
+.hero-section {
+   background-color: #030303;
+   overflow: hidden;
+   position: relative;
+   width: 100%;
+   height: 181vh;
+}
+
+.hero-bg-down-side {
+   position: relative;
+}
+.hero-section-child {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   backdrop-filter: blur(3px);
+   background-color: rgba(52, 52, 52, 0.3);
+   z-index: 1;
+}
+
+.hero-bg-image-area-1,
+.hero-bg-image-area-2,
+.hero-bg-image-area-3 {
+   position: absolute;
+   height: 532px;
+   width: 431px;
+   border-color: #e2e2e2;
+   border-width: 2px;
+   transform-origin: 0 0;
+   object-fit: cover;
+   border-radius: 60px;
+   border-style: solid;
+   z-index: 3;
+}
+.hero-bg-image-area-1 .hero-image-rectangle-1,
+.hero-bg-image-area-2 .hero-image-rectangle-2,
+.hero-bg-image-area-3 .hero-image-rectangle-3 {
+   border-radius: 20px 40px 0px 0px;
+   border-style: solid;
+   border-color: #e2e2e2;
+   border-width: 2px;
+   width: 174.91px;
+   height: 92.35px;
+   position: absolute;
+}
+
+.hero-bg-image-area-1 .hero-image-rectangle-1 .once-upon,
+.hero-bg-image-area-2 .hero-image-rectangle-2 .aaa-time,
+.hero-bg-image-area-3 .hero-image-rectangle-3 .i-meeeet-you {
+   color: #ffffff;
+   text-align: center;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 0.61rem 0 0 0;
+}
+
+/* hero bg image one start */
+.hero-bg-image-area-1 {
+   top: 55%;
+   left: -105px;
+   transform: rotate(-15deg) scale(1, 1) translateY(-50%);
+}
+.hero-bg-image-area-1 .hero-bg-image-1 {
+   height: 100%;
+   width: 100%;
+   border-radius: 60px;
+   position: relative;
+}
+.hero-bg-image-area-1 .hero-image-rectangle-1 {
+   background: #ea87be;
+   right: -1px;
+   top: -37px;
+}
+.hero-bg-image-area-1 .once-upon-love {
+   width: 25.86px;
+   height: 37.86px;
+   overflow: visible;
+   position: absolute;
+   top: -63px;
+   right: 0;
+   rotate: 13deg;
+}
+/* hero bg image one end */
+/* hero bg image two start */
+
+.hero-bg-image-area-2 {
+   top: 46.5%;
+   left: 210px;
+   transform: rotate(15deg) scale(1, 1) translateY(-50%);
+}
+.hero-bg-image-area-2 .hero-bg-image-2 {
+   height: 100%;
+   width: 100%;
+   border-radius: 60px;
+   position: relative;
+}
+.hero-bg-image-area-2 .hero-image-rectangle-2 {
+   background: #ea5362;
+   right: -1px;
+   top: -37px;
+}
+.hero-bg-image-area-2 .aaa-one {
+   width: 41.46px;
+   height: 59.37px;
+   overflow: visible;
+   position: absolute;
+   top: -90.9px;
+   left: 62.3%;
+   transform: translateX(-50%);
+   rotate: -11deg;
+}
+.hero-bg-image-area-2 .aaa-two {
+   width: 37.86px;
+   height: 25.86px;
+   overflow: visible;
+   position: absolute;
+   top: -57px;
+   right: 0;
+   rotate: -15deg;
+}
+/* hero bg image two end */
+
+/* hero bg image three start */
+
+.hero-bg-image-area-3 {
+   top: 51.5%;
+   left: 395px;
+   transform: rotate(45deg) scale(1, 1) translateY(-50%);
+}
+.hero-bg-image-area-3 .hero-bg-image-3 {
+   height: 100%;
+   width: 100%;
+   border-radius: 60px;
+   position: relative;
+}
+.hero-bg-image-area-3 .hero-image-rectangle-3 {
+   background: #ea87be;
+   right: -1px;
+   top: -37px;
+}
+.hero-bg-image-area-3 .meet-you {
+   width: 41.46px;
+   height: 59.37px;
+   overflow: visible;
+   position: absolute;
+   top: -94.5px;
+   left: 58%;
+   transform: translateX(-50%);
+   rotate: -43deg;
+}
+/* hero bg image three end */
+
+.lovesvg {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   margin: 0 !important;
+   bottom: -180.9px;
+   left: 0;
+   /* background-color: #ff4caf; */
+}
+
+.lovesvg-child {
+   position: absolute;
+   top: 337.4px;
+   left: 257.4px;
+   width: 25.3px;
+   height: 25.3px;
+   object-fit: contain;
+   z-index: 0;
+}
+.lovesvg-inner,
+.lovesvg-item {
+   position: absolute;
+   top: 337.4px;
+   left: 249.4px;
+   width: 25.3px;
+   height: 25.3px;
+   object-fit: contain;
+}
+
+.lovesvg-inner,
+.lovesvg-item {
+   top: 52.8px;
+   left: 1690.8px;
+   width: 79.6px;
+   height: 79.6px;
+}
+
+.lovesvg-inner {
+   top: 113px;
+   left: 172px;
+   width: 25.3px;
+   height: 25.3px;
+}
+
+.group-icon,
+.lovesvg-child1,
+.lovesvg-child2 {
+   position: absolute;
+   top: 632.9px;
+   left: 625.2px;
+   width: 16.9px;
+   height: 16.9px;
+   object-fit: contain;
+}
+
+.lovesvg-child1,
+.lovesvg-child2 {
+   top: 120.2px;
+   left: 1534px;
+   width: 20.3px;
+   height: 20.3px;
+}
+
+.lovesvg-child2 {
+   top: 80px;
+   left: 395px;
+   width: 33.3px;
+   height: 33.3px;
+}
+
+.lovesvg-child3,
+.lovesvg-child4,
+.lovesvg-child5 {
+   position: absolute;
+   top: 303.4px;
+   left: 97.4px;
+   width: 24.6px;
+   height: 24.6px;
+   object-fit: contain;
+}
+
+.lovesvg-child4,
+.lovesvg-child5 {
+   top: 628.4px;
+   left: 511.7px;
+   width: 44.7px;
+   height: 44.7px;
+}
+
+.lovesvg-child5 {
+   top: 21.6px;
+   left: 1574.6px;
+   width: 53.6px;
+   height: 53.6px;
+}
+
+.ellipse-div {
+   /* position: absolute;
+   top: 54px;
+   left: 0; */
+   filter: blur(1000px);
+   border-radius: 50%;
+   background-color: rgba(249, 197, 209, 0.4);
+   width: 95%;
+   height: 653px;
+   z-index: -6;
+   margin: 0 auto;
+}
+.lovesvg-child6,
+.lovesvg-child7,
+.rectangle-div {
+   position: absolute;
+   top: 310.12px;
+   left: 67.9px;
+   border-radius: var(--br-xl) var(--br-21xl) 0 0;
+   background-color: var(--color-palevioletred);
+   border: 2px solid var(--color-gainsboro-100);
+   box-sizing: border-box;
+   width: 174.9px;
+   height: 92.3px;
+   transform: rotate(-15.6deg);
+   transform-origin: 0 0;
+   z-index: 3;
+}
+
+.lovesvg-child6,
+.lovesvg-child7 {
+   top: 630.25px;
+   left: 795.7px;
+   width: 176.3px;
+   transform: rotate(45.6deg);
+   z-index: 3;
+}
+
+.lovesvg-child7 {
+   top: 391px;
+   left: 528.57px;
+   background-color: var(--color-indianred);
+   width: 187.6px;
+   height: 100.1px;
+   transform: rotate(15deg);
+}
+.onceupon {
+   margin: 0 !important;
+   position: relative;
+   padding: 0.5rem 0 0 0;
+   font-weight: 500;
+   z-index: 5;
+}
+.i-meeeetyou {
+   padding: 0.5rem 0 0 0;
+}
+.aaatime {
+   font-weight: 500;
+   font-family: var(--font-quicksand);
+   padding: 0.5rem 0 0 0;
+}
+
+.pngwingcom28-1-icon {
+   position: absolute;
+   top: 152.1px;
+   left: 770.1px;
+   width: 499px;
+   height: 499px;
+   object-fit: contain;
+   z-index: 3;
+}
+
+.lovesvg-child8,
+.rectangle-icon {
+   position: absolute;
+   top: 313px;
+   left: -175px;
+   border-radius: var(--br-41xl);
+   width: 554px;
+   height: 625.4px;
+   object-fit: contain;
+   z-index: 4;
+}
+
+.lovesvg-child8 {
+   top: 374px;
+   left: 133.4px;
+   z-index: 5;
+}
+
+.love-svgrepo-com1-1-icon {
+   position: absolute;
+   top: 241px;
+   left: 205px;
+   width: 25.86;
+   height: 37.86px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 4;
+}
+.love-svgrepo-com1-15-icon {
+   position: absolute;
+   top: 264px;
+   left: 202px;
+   width: 37.86px;
+   height: 25.9px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 4;
+}
+
+.love-svgrepo-com1-15-icon {
+   top: 417px;
+   left: 677px;
+   z-index: 6;
+}
+
+.love-svgrepo-com1-16-icon,
+.love-svgrepo-com1-4-icon {
+   position: absolute;
+   top: 262px;
+   left: 217px;
+   width: 7.6px;
+   height: 7.6px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 5;
+}
+
+.love-svgrepo-com1-16-icon {
+   top: 435px;
+   left: 678.3px;
+   z-index: 7;
+}
+.rectangle-parent {
+   position: absolute;
+   top: 479px;
+   left: 187px;
+   width: 680.9px;
+   height: 680.9px;
+}
+.frame-child {
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: var(--br-41xl);
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   z-index: 10;
+}
+
+.love-svgrepo-com1-22-icon,
+.love-svgrepo-com1-8-icon {
+   position: absolute;
+   top: 125px;
+   left: 601.9px;
+   width: 30.1px;
+   height: 44.13px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 7;
+}
+.love-svgrepo-com1-8-icon {
+   top: -133.1px;
+   left: 337.1px;
+   width: 41.46px;
+   height: 59.37px;
+   z-index: 6;
+}
+.happy-container {
+   padding: 15.3em 0 0 0;
+   z-index: 111;
+}
+
+.happy-wrapper {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: var(--padding-3xs);
+   box-sizing: border-box;
+   max-width: 100%;
+   z-index: 3;
+   font-size: var(--font-size-109xl);
+   font-family: var(--font-alpino-variable);
+   position: relative;
+}
+.happy {
+   position: absolute;
+   top: 250px;
+   left: 581px;
+   margin: 0;
+   font-size: inherit;
+   font-weight: 700;
+   font-family: inherit;
+}
+.aaatime-parent {
+   align-self: stretch;
+   flex-direction: row;
+   position: relative;
+   font-family: var(--font-alpino-variable);
+}
+.anniversary,
+.my-sanshine {
+   font-weight: 700;
+   font-family: inherit;
+}
+.anniversary-wrapper {
+   display: flex;
+   justify-content: center;
+}
+.anniversary {
+   margin: 0;
+   position: absolute;
+   top: 361px;
+   left: 761px;
+   font-size: var(--font-size-109xl);
+   color: #f33333;
+   word-wrap: break-word;
+   white-space: nowrap;
+   display: inline-block;
+   z-index: 14;
+}
+.my-sanshine-parent,
+.sunshine-article {
+   margin-top: -10px;
+   display: flex;
+   align-items: flex-start;
+   max-width: 100%;
+}
+
+.my-sanshine-parent {
+   position: absolute;
+   top: 521px;
+   left: 577px;
+   /* width: 815px; */
+   flex-direction: column;
+   justify-content: flex-start;
+   gap: 28px;
+}
+
+.sunshine-article {
+   flex: 1;
+   flex-direction: row;
+   justify-content: flex-end;
+   font-size: var(--font-size-21xl);
+}
+.my-sanshine {
+   margin: 0;
+   position: relative;
+   font-size: inherit;
+   background: linear-gradient(90deg, #eb86be, #ff4caf);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   z-index: 15;
+   padding: 0 0 0 185px;
+}
+.article {
+   align-self: stretch;
+   position: relative;
+   font-size: 15px;
+   font-weight: 500;
+   font-family: var(--font-quicksand);
+   text-align: left;
+   z-index: 7;
+   padding: 0 0 0 185px;
+}
+.i-wanted-to {
+   margin: 0;
+}
+
+.love-svgrepo-com1-17-icon,
+.love-svgrepo-com1-7-icon {
+   position: absolute;
+   top: 265px;
+   left: 203px;
+   width: 6.8px;
+   height: 6.8px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 5;
+}
+
+/* our firts meet start */
+/* 
+.our-firts-meet-bg {
+   background: #ea87be;
+   border-radius: 120px 120px 0px 0px;
+   height: 1466px;
+   width: 100%;
+   overflow: hidden;
+   position: absolute;
+   top: -500px !important;
+   left: 0;
+} */
+
+/* our firts meet end */
+
+.love-svgrepo-com1-17-icon {
+   top: 421px;
+   left: 676.1px;
+   z-index: 7;
+}
+
+.love-svgrepo-com1-18-icon,
+.love-svgrepo-com1-2-icon {
+   position: absolute;
+   top: 258px;
+   left: 206px;
+   width: 13.3px;
+   height: 13.3px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 6;
+}
+
+.love-svgrepo-com1-18-icon {
+   top: 424px;
+   left: 676.6px;
+   z-index: 8;
+}
+
+.love-svgrepo-com1-19-icon,
+.love-svgrepo-com1-3-icon {
+   position: absolute;
+   top: 252px;
+   left: 208px;
+   width: 9.5px;
+   height: 9.5px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 7;
+}
+
+.love-svgrepo-com1-19-icon {
+   top: 426px;
+   left: 686.4px;
+   z-index: 9;
+}
+
+.love-svgrepo-com1-20-icon,
+.love-svgrepo-com1-5-icon {
+   position: absolute;
+   top: 257px;
+   left: 206px;
+   width: 3.7px;
+   height: 3.7px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 8;
+}
+
+.love-svgrepo-com1-20-icon {
+   top: 424px;
+   left: 687.1px;
+   z-index: 10;
+}
+
+.love-svgrepo-com1-21-icon,
+.love-svgrepo-com1-6-icon {
+   position: absolute;
+   top: 254px;
+   left: 206px;
+   width: 2.9px;
+   height: 2.9px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 8;
+}
+
+.love-svgrepo-com1-21-icon {
+   top: 424px;
+   left: 691px;
+   z-index: 10;
+}
+
+.love-svgrepo-com1-23-icon,
+.love-svgrepo-com1-9-icon {
+   position: absolute;
+   top: 135.7px;
+   left: 598.3px;
+   width: 8.8px;
+   height: 8.8px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 8;
+}
+
+.love-svgrepo-com1-9-icon {
+   top: -112.3px;
+   left: 349.5px;
+   width: 12px;
+   height: 12px;
+   z-index: 7;
+}
+
+.love-svgrepo-com1-10-icon,
+.love-svgrepo-com1-24-icon {
+   position: absolute;
+   top: 139.2px;
+   left: 582px;
+   width: 7.9px;
+   height: 7.9px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 8;
+}
+
+.love-svgrepo-com1-10-icon {
+   top: -105.5px;
+   left: 328.5px;
+   width: 10px;
+   height: 10px;
+   z-index: 7;
+}
+
+.love-svgrepo-com1-11-icon,
+.love-svgrepo-com1-25-icon {
+   position: absolute;
+   top: 131px;
+   left: 585.5px;
+   width: 15.5px;
+   height: 15.5px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 9;
+}
+
+.love-svgrepo-com1-11-icon {
+   top: -116.9px;
+   left: 332.9px;
+   width: 19.6px;
+   height: 19.6px;
+   z-index: 8;
+}
+
+.love-svgrepo-com1-12-icon,
+.love-svgrepo-com1-26-icon {
+   position: absolute;
+   top: 124px;
+   left: 587.9px;
+   width: 11.1px;
+   height: 11.1px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 10;
+}
+
+.love-svgrepo-com1-12-icon {
+   top: -127px;
+   left: 334.2px;
+   width: 15.4px;
+   height: 15.4px;
+   z-index: 9;
+}
+
+.love-svgrepo-com1-13-icon,
+.love-svgrepo-com1-27-icon {
+   position: absolute;
+   top: 130.1px;
+   left: 586px;
+   width: 4px;
+   height: 4px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 11;
+}
+
+.love-svgrepo-com1-13-icon {
+   top: -118.8px;
+   left: 331.4px;
+   width: 6.5px;
+   height: 6.5px;
+   z-index: 10;
+}
+
+.love-svgrepo-com1-14-icon,
+.love-svgrepo-com1-28-icon {
+   position: absolute;
+   top: 126.3px;
+   left: 585.5px;
+   width: 3.3px;
+   height: 3.3px;
+   overflow: hidden;
+   object-fit: contain;
+   z-index: 11;
+}
+
+.love-svgrepo-com1-14-icon {
+   top: -122.9px;
+   left: 331.2px;
+   width: 4.5px;
+   height: 4.5px;
+}
+
+.pngwingcom30-1-icon {
+   position: absolute;
+   top: -385.1px;
+   left: 125px;
+   /* transform: translateX(-50%); */
+   width: 351px;
+   height: 376.7px;
+   object-fit: contain;
+   z-index: 12;
+}
+
+.our-firts-meet-child,
+.our-firts-meet-item {
+   position: absolute;
+   top: 95.1px;
+   left: 1656.1px;
+   width: 35.8px;
+   height: 35.8px;
+   object-fit: contain;
+}
+
+.our-firts-meet-item {
+   top: 1018px;
+   left: 1524px;
+   width: 24.4px;
+   height: 24.4px;
+}
+
+.our-firts-meet-child1,
+.our-firts-meet-inner {
+   position: absolute;
+   top: 423px;
+   left: 1411px;
+   width: 20.6px;
+   height: 20.6px;
+   object-fit: contain;
+}
+
+.our-firts-meet-child1 {
+   top: 588px;
+   left: 1803px;
+}
+
+.frame-child1,
+.frame-inner,
+.frame-item {
+   position: absolute;
+   top: 37.1px;
+   left: 460px;
+   width: 35.8px;
+   height: 35.8px;
+   object-fit: contain;
+}
+
+.frame-child1,
+.frame-inner {
+   top: 657px;
+   left: 234px;
+}
+
+.frame-child1 {
+   top: 148px;
+   left: 1068px;
+}
+
+.frame-child2,
+.frame-child3,
+.frame-child4 {
+   position: absolute;
+   top: 753px;
+   left: 727px;
+   width: 14.9px;
+   height: 14.9px;
+   object-fit: contain;
+}
+
+.frame-child3,
+.frame-child4 {
+   top: 398px;
+   left: 10px;
+}
+
+.frame-child4 {
+   top: 92px;
+   left: 98px;
+   width: 24.4px;
+   height: 24.4px;
+}
+
+.meeting {
+   font-size: var(--font-size-45xl);
+   line-height: 76px;
+   color: var(--color-indianred);
+}
+
+.heading {
+   width: 367px;
+   position: relative;
+   display: inline-block;
+   flex-shrink: 0;
+}
+
+.heading-wrapper {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: var(--padding-3xs);
+}
+
+.then-we-exchanged-container {
+   width: 681px;
+   position: relative;
+   font-weight: 500;
+   display: inline-block;
+   flex-shrink: 0;
+}
+
+.articles {
+   align-self: stretch;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: var(--padding-3xs);
+   font-size: var(--font-size-xl);
+   color: var(--color-black);
+   font-family: var(--font-quicksand);
+}
+
+.heading-article {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 701px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   gap: 143px;
+   max-width: 100%;
+}
+
+.remember-when-we-container {
+   width: 589px;
+   position: relative;
+   font-weight: 500;
+   display: inline-block;
+   flex-shrink: 0;
+}
+
+.remember-when-we-first-met-m-wrapper {
+   align-self: stretch;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: var(--padding-3xs);
+}
+
+.do-you-remember-container {
+   position: relative;
+   font-weight: 500;
+}
+
+.article1,
+.remember-article {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   max-width: 100%;
+}
+
+.article1 {
+   width: 609px;
+   gap: 400px;
+}
+
+.remember-article {
+   position: absolute;
+   top: 0;
+   left: 789px;
+   padding: 84px 0 0;
+   box-sizing: border-box;
+   text-align: right;
+   font-size: var(--font-size-xl);
+   color: var(--color-black);
+   font-family: var(--font-quicksand);
+}
+
+.photo-icon,
+.photo-icon1,
+.photo-icon2 {
+   position: absolute;
+   top: 351px;
+   left: 932px;
+   border-radius: 50%;
+   width: 252px;
+   height: 252px;
+   object-fit: cover;
+}
+
+.photo-icon1,
+.photo-icon2 {
+   top: 305px;
+   left: 695px;
+   width: 344.2px;
+   height: 344.2px;
+   object-fit: contain;
+}
+
+.photo-icon2 {
+   top: 322.7px;
+   left: 1107px;
+   width: 308.6px;
+   height: 308.6px;
+}
+
+.frame-parent {
+   width: 1398px;
+   height: 774px;
+   position: relative;
+   max-width: 100%;
+}
+
+.articles1 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: var(--padding-3xs);
+   text-align: center;
+   font-size: var(--font-size-xl);
+   color: var(--color-black);
+   font-family: var(--font-quicksand);
+}
+
+.heading-articles-photo {
+   position: absolute;
+   top: 58px;
+   left: 260px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 190px;
+   max-width: 100%;
+}
+
+.photo-section,
+.pngwingcom40-1-icon {
+   position: absolute;
+   top: 0;
+   left: -139px;
+   width: 885.6px;
+   height: 686.4px;
+   object-fit: contain;
+   z-index: 2;
+}
+
+.pngwingcom40-1-icon {
+   top: 318.9px;
+   left: -69.2px;
+   width: 504.3px;
+   height: 502.5px;
+   z-index: 3;
+}
+
+.photo-section-parent {
+   position: absolute;
+   top: 769.1px;
+   left: 0;
+   width: 746.6px;
+   height: 821.4px;
+}
+/* our firts meet start */
+.our-meet {
+   align-self: stretch;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 0 147px;
+   box-sizing: border-box;
+   margin-top: -425px;
+   text-align: left;
+   font-size: 96px;
+   color: var(--color-white);
+   font-family: var(--font-alpino-variable);
+}
+
+.our-firts-meet {
+   height: auto;
+   flex: 1;
+   position: relative;
+   border-radius: var(--br-101xl) var(--br-101xl) 0 0;
+   background-color: var(--color-palevioletred);
+   overflow: hidden;
+   flex-shrink: 0;
+   max-width: 100%;
+   z-index: 16;
+   padding-top: 0.7em;
+}
+.our-circle-1 {
+   position: absolute;
+   top: 85px;
+   left: 39%;
+   transform: translateX(-50%);
+   width: 29.26px;
+   height: 29.26px;
+}
+.our-circle-2 {
+   position: absolute;
+   top: 85px;
+   left: 90%;
+   transform: translateX(-50%);
+   width: 29.26px;
+   height: 29.26px;
+}
+.our-circle-3 {
+   position: absolute;
+   top: 185px;
+   left: 75%;
+   transform: translateX(-50%);
+   width: 29.26px;
+   height: 29.26px;
+}
+.our-circle-4 {
+   position: absolute;
+   top: 33.9%;
+   left: 15%;
+   transform: translate(-50%, -50%);
+   width: 12.18px;
+   height: 12.18px;
+}
+.our-circle-5 {
+   position: absolute;
+   top: 33.9%;
+   left: 77.7%;
+   transform: translate(-50%, -50%);
+   width: 12.18px;
+   height: 12.18px;
+}
+.our-circle-6 {
+   position: absolute;
+   top: 60%;
+   left: 25%;
+   transform: translate(-50%, -50%);
+   width: 29.26px;
+   height: 29.26px;
+}
+.our-circle-7 {
+   position: absolute;
+   top: 47%;
+   left: 95%;
+   transform: translate(-50%, -50%);
+   width: 16.79px;
+   height: 16.79px;
+}
+.our-circle-8 {
+   position: absolute;
+   top: 65%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 12.18px;
+   height: 12.18px;
+}
+.our-circle-9 {
+   position: absolute;
+   top: 77%;
+   left: 85%;
+   transform: translate(-50%, -50%);
+   width: 19.94px;
+   height: 19.94px;
+}
+.our-meet-background-image {
+   position: absolute;
+   bottom: -130px;
+   left: -110px;
+   height: 451px;
+   width: 451px;
+   z-index: 1;
+}
+.our-meet-background-image-x2 {
+   position: absolute;
+   bottom: 0;
+   left: -120px;
+   height: 491px;
+   z-index: -1;
+}
+.our-meet-heading,
+.our-meet-heading * {
+   box-sizing: border-box;
+}
+.our-meet-heading {
+   text-align: left;
+   position: relative;
+   padding: 0 0 1.5em 0;
+}
+.heading-span {
+   color: #ffffff;
+   font-family: "AlpinoVariable-Bold", sans-serif;
+   font-size: 96px;
+   font-weight: 700;
+}
+.heading-span2 {
+   color: #ea5362;
+   font-family: "AlpinoVariable-Bold", sans-serif;
+   font-size: 64px;
+   line-height: 76px;
+   font-weight: 700;
+}
+.then-we-exchanged-phone-numbers-we-used-to-stay-up-the-whole-night-texting-i-probably-developed-carpal-tunnel-syndrome-from-holding-my-phone-all-night,
+.then-we-exchanged-phone-numbers-we-used-to-stay-up-the-whole-night-texting-i-probably-developed-carpal-tunnel-syndrome-from-holding-my-phone-all-night
+   * {
+   box-sizing: border-box;
+}
+.then-we-exchanged-phone-numbers-we-used-to-stay-up-the-whole-night-texting-i-probably-developed-carpal-tunnel-syndrome-from-holding-my-phone-all-night {
+   color: #000000;
+   text-align: left;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+}
+.frame-67,
+.frame-67 * {
+   box-sizing: border-box;
+}
+.frame-67 {
+   height: 175px;
+   position: relative;
+}
+.remember-when-we-first-met-man-i-was-so-nervous-but-you-were-so-confident-you-have-to-understand-your-whole-family-was-there-and-i-got-pretty-scared-but-ever-since-that-day-you-ve-made-me-more-confident-than-ever-and-for-that-i-m-so-grateful {
+   color: #000000;
+   text-align: right;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+}
+.photo,
+.photo * {
+   box-sizing: border-box;
+}
+.photo {
+   border-radius: 50%;
+   width: 252px;
+   height: 252px;
+   position: relative;
+   object-fit: cover;
+}
+.photo-1 {
+   z-index: 1;
+   position: relative;
+}
+.do-you-remember-what-we-did-on-our-first-date-i-made-a-poem-with-a-few-hints-to-jog-your-memory-ahem,
+.do-you-remember-what-we-did-on-our-first-date-i-made-a-poem-with-a-few-hints-to-jog-your-memory-ahem
+   * {
+   box-sizing: border-box;
+}
+.do-you-remember-what-we-did-on-our-first-date-i-made-a-poem-with-a-few-hints-to-jog-your-memory-ahem {
+   color: #000000;
+   text-align: right;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+}
+.we-shared-ice-cream-at-m-venpick-laughed-when-the-park-said-no-entry-classic-trick-found-matching-watches-bears-so-sweet-time-began-where-our-hearts-would-meet-a-quiet-kiss-in-the-evening-air-shahabuddin-held-the-start-of-our-care,
+.we-shared-ice-cream-at-m-venpick-laughed-when-the-park-said-no-entry-classic-trick-found-matching-watches-bears-so-sweet-time-began-where-our-hearts-would-meet-a-quiet-kiss-in-the-evening-air-shahabuddin-held-the-start-of-our-care
+   * {
+   box-sizing: border-box;
+}
+.we-shared-ice-cream-at-m-venpick-laughed-when-the-park-said-no-entry-classic-trick-found-matching-watches-bears-so-sweet-time-began-where-our-hearts-would-meet-a-quiet-kiss-in-the-evening-air-shahabuddin-held-the-start-of-our-care {
+   color: #000000;
+   text-align: center;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+}
+.our-meet-last-child {
+   padding: 1.7em 0 1.5em 0;
+}
+
+/* our firts meet end */
+
+/* akht start */
+.akht,
+.akht * {
+   box-sizing: border-box;
+}
+
+.akht {
+   align-self: stretch;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 0 147px;
+   box-sizing: border-box;
+   margin-top: -261px;
+   text-align: left;
+   font-size: 96px;
+   color: var(--color-white);
+   font-family: var(--font-alpino-variable);
+}
+
+.akht-bg {
+   flex: 1;
+   position: relative;
+   border-radius: var(--br-101xl) var(--br-101xl) 0 0;
+   background: #020202;
+   overflow: hidden;
+   flex-shrink: 0;
+   max-width: 100%;
+   z-index: 16;
+   padding-top: 1.1em;
+   padding-bottom: 4.1em;
+}
+.akht-bg-image {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   height: 901px;
+}
+.akht-bg-image-2 {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   height: 451px;
+   width: 451px;
+}
+.akht-background-ellipse {
+   backdrop-filter: blur(3px);
+   background-color: rgba(52, 52, 52, 0.3);
+   border-radius: var(--br-101xl) var(--br-101xl) 0 0;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+.akht-background-ellipse-2 {
+   background: rgba(217, 69, 83, 0.2);
+   border-radius: 50% 50% 0 0;
+   height: 576px;
+   width: 90%;
+   position: relative;
+   filter: blur(500px);
+   position: absolute;
+   top: 61%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: -5;
+}
+.akht-bg-circle-image-1,
+.akht-bg-circle-image-2,
+.akht-bg-circle-image-3 {
+   position: absolute;
+   z-index: -1;
+}
+.akht-bg-circle-image-1 {
+   top: 270px;
+   left: 20%;
+   transform: translateX(-50%);
+   width: 29.26px;
+   height: 29.26px;
+}
+.akht-bg-circle-image-2 {
+   top: 340px;
+   left: 33%;
+   transform: translateX(-50%);
+   width: 22.24px;
+   height: 22.24px;
+}
+.akht-bg-circle-image-3 {
+   top: 47%;
+   left: 65%;
+   transform: translate(-50%, -50%);
+   width: 14.44px;
+   height: 14.44px;
+}
+.our-big-day-i-felt-like-the-luckiest-man-in-the-world,
+.our-big-day-i-felt-like-the-luckiest-man-in-the-world * {
+   box-sizing: border-box;
+}
+.our-big-day-i-felt-like-the-luckiest-man-in-the-world {
+   color: #ffffff;
+   text-align: left;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+}
+.then-we-looked-into-the-mirror-i-said-i-saw-my-universe-and-you-said-you-saw-the-person-you-could-spend-your-whole-life-with-you-ve-always-been-the-more-romantic-one-hahaha,
+.then-we-looked-into-the-mirror-i-said-i-saw-my-universe-and-you-said-you-saw-the-person-you-could-spend-your-whole-life-with-you-ve-always-been-the-more-romantic-one-hahaha
+   * {
+   box-sizing: border-box;
+}
+.then-we-looked-into-the-mirror-i-said-i-saw-my-universe-and-you-said-you-saw-the-person-you-could-spend-your-whole-life-with-you-ve-always-been-the-more-romantic-one-hahaha {
+   color: #ffffff;
+   text-align: left;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+}
+.akht-headding,
+.akht-headding * {
+   box-sizing: border-box;
+}
+.akht-headding {
+   background: linear-gradient(
+      99.79deg,
+      rgba(234, 83, 98, 1) 0%,
+      rgba(217, 69, 83, 1) 100%
+   );
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: right;
+   font-family: "AlpinoVariable-Bold", sans-serif;
+   font-size: 96px;
+   font-weight: 700;
+   position: relative;
+}
+.that-day-it-felt-like-my-life-was-complete-i-found-the-other-half-of-my-soul-and-we-became-one-it-was-one-of-our-fondest-memories-i-remember-how-nana-tried-to-separate-us-but-our-love-was-stronger-than-old-traditions-and-we-ended-up-signing-the-paper-together-you-couldn-t-stop-giggling,
+.that-day-it-felt-like-my-life-was-complete-i-found-the-other-half-of-my-soul-and-we-became-one-it-was-one-of-our-fondest-memories-i-remember-how-nana-tried-to-separate-us-but-our-love-was-stronger-than-old-traditions-and-we-ended-up-signing-the-paper-together-you-couldn-t-stop-giggling
+   * {
+   box-sizing: border-box;
+}
+.that-day-it-felt-like-my-life-was-complete-i-found-the-other-half-of-my-soul-and-we-became-one-it-was-one-of-our-fondest-memories-i-remember-how-nana-tried-to-separate-us-but-our-love-was-stronger-than-old-traditions-and-we-ended-up-signing-the-paper-together-you-couldn-t-stop-giggling {
+   color: #ffffff;
+   text-align: right;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+}
+
+/* akht end */
+
+/* memories start */
+.memories,
+.memories-we-made {
+   max-width: 100%;
+   position: relative;
+}
+
+.memories {
+   align-self: stretch;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 0 108px;
+   box-sizing: border-box;
+   margin-top: -271px;
+   text-align: left;
+   font-size: var(--font-size-xl);
+   color: var(--color-white);
+   font-family: var(--font-quicksand);
+}
+.memories-we-made {
+   height: auto;
+   flex: 1;
+   border-radius: var(--br-101xl) var(--br-101xl) 0 0;
+   background-color: var(--color-indianred);
+   overflow: hidden;
+   flex-shrink: 0;
+   z-index: 18;
+   padding-top: 5.1em;
+   padding-bottom: 19.1em;
+}
+
+.memories-heading,
+.memories-heading * {
+   box-sizing: border-box;
+}
+.memories-heading {
+   color: #ffffff;
+   text-align: left;
+   font-family: "AlpinoVariable-Bold", sans-serif;
+   font-size: 64px;
+   line-height: 76px;
+   font-weight: 700;
+   position: relative;
+}
+.memories-articles,
+.memories-articles * {
+   box-sizing: border-box;
+}
+.memories-articles {
+   color: #ffffff;
+   text-align: left;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+   align-self: stretch;
+}
+.you-ve-made-me-so-many-late-night-snacks-i-just-have-to-say-i-m-a-little-hungry-and-boom-you-turn-into-gordon-ramsay-and-i-still-can-t-believe-you-got-me-into-horror-movies-now-i-actually-watch-them-on-my-own-because-of-you,
+.you-ve-made-me-so-many-late-night-snacks-i-just-have-to-say-i-m-a-little-hungry-and-boom-you-turn-into-gordon-ramsay-and-i-still-can-t-believe-you-got-me-into-horror-movies-now-i-actually-watch-them-on-my-own-because-of-you
+   * {
+   box-sizing: border-box;
+}
+.you-ve-made-me-so-many-late-night-snacks-i-just-have-to-say-i-m-a-little-hungry-and-boom-you-turn-into-gordon-ramsay-and-i-still-can-t-believe-you-got-me-into-horror-movies-now-i-actually-watch-them-on-my-own-because-of-you {
+   color: #ffffff;
+   text-align: left;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+   align-self: stretch;
+}
+.these-last-two-years-have-been-amazing-i-ve-made-so-many-fun-memories-with-you,
+.these-last-two-years-have-been-amazing-i-ve-made-so-many-fun-memories-with-you
+   * {
+   box-sizing: border-box;
+}
+.these-last-two-years-have-been-amazing-i-ve-made-so-many-fun-memories-with-you {
+   color: #dfdfdf;
+   text-align: right;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+}
+.we-haven-t-traveled-much-yet-but-i-ve-still-had-fun-every-single-time-we-have-i-promise-we-ll-go-on-more-trips-and-make-even-more-beautiful-memories-together,
+.we-haven-t-traveled-much-yet-but-i-ve-still-had-fun-every-single-time-we-have-i-promise-we-ll-go-on-more-trips-and-make-even-more-beautiful-memories-together
+   * {
+   box-sizing: border-box;
+}
+.we-haven-t-traveled-much-yet-but-i-ve-still-had-fun-every-single-time-we-have-i-promise-we-ll-go-on-more-trips-and-make-even-more-beautiful-memories-together {
+   color: #ffffff;
+   text-align: right;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+   align-self: stretch;
+}
+.mamories-image {
+   height: 478px;
+   position: absolute;
+   left: 20px;
+   bottom: -150px;
+   z-index: 3;
+}
+.mamories-image-2 {
+   height: 678px;
+   position: absolute;
+   left: -10px;
+   bottom: 0;
+   z-index: 2;
+}
+/* memories end */
+/* the dreams we re living start */
+.the-dreams-we-re-living {
+   align-self: stretch;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 0 108px;
+   box-sizing: border-box;
+   margin-top: -221px;
+   text-align: left;
+   font-size: var(--font-size-xl);
+   color: var(--color-white);
+   font-family: var(--font-quicksand);
+}
+.the-dreams-were-living-bg {
+   height: auto;
+   flex: 1;
+   border-radius: var(--br-101xl) var(--br-101xl) 0 0;
+   background-color: #020202;
+   overflow: hidden;
+   flex-shrink: 0;
+   z-index: 18;
+   padding-top: 5.1em;
+   padding-bottom: 19.1em;
+   position: relative;
+}
+.the-dreams-bg-ellipse {
+   backdrop-filter: blur(3px);
+   background-color: rgba(52, 52, 52, 0.3);
+   border-radius: var(--br-101xl) var(--br-101xl) 0 0;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+.the-dreams-bg-ellipse-2 {
+   background: rgba(217, 69, 83, 0.2);
+   border-radius: 50% 50% 0 0;
+   height: 376px;
+   width: 90%;
+   position: relative;
+   filter: blur(500px);
+   position: absolute;
+   top: 59.5%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: -5;
+}
+.the-dreams-bg-circle-image-1,
+.the-dreams-bg-circle-image-2,
+.the-dreams-bg-circle-image-3,
+.the-dreams-bg-circle-image-4,
+.the-dreams-bg-circle-image-5,
+.the-dreams-bg-circle-image-6 {
+   position: absolute;
+   z-index: -2;
+}
+.the-dreams-bg-circle-image-1 {
+   top: 205px;
+   left: 20%;
+   transform: translateX(-50%);
+   width: 29.26px;
+   height: 29.26px;
+}
+.the-dreams-bg-circle-image-2 {
+   top: 37.3%;
+   left: 77%;
+   transform: translate(-50%, -50%);
+   width: 38.12px;
+   height: 38.12px;
+}
+.the-dreams-bg-circle-image-3 {
+   top: 38%;
+   left: 70.5%;
+   transform: translate(-50%, -50%);
+   width: 38.12px;
+   height: 38.12px;
+}
+.the-dreams-bg-circle-image-4 {
+   top: 85%;
+   left: 10%;
+   transform: translate(-50%, -50%);
+   width: 69.96px;
+   height: 69.96px;
+}
+.the-dreams-bg-circle-image-5 {
+   top: 80%;
+   left: 22.5%;
+   transform: translate(-50%, -50%);
+   width: 22.24px;
+   height: 22.24px;
+}
+.the-dreams-bg-circle-image-6 {
+   top: 88%;
+   left: 17.7%;
+   transform: translate(-50%, -50%);
+   width: 38.12px;
+   height: 38.12px;
+}
+.i-promise-i-ll-make-sure-we-achieve-all-of-our-dreams-all-i-ask-is-that-you-stay-by-my-side-keep-me-motivated-and-give-me-a-gentle-scolding-every-now-and-then,
+.i-promise-i-ll-make-sure-we-achieve-all-of-our-dreams-all-i-ask-is-that-you-stay-by-my-side-keep-me-motivated-and-give-me-a-gentle-scolding-every-now-and-then
+   * {
+   box-sizing: border-box;
+}
+.i-promise-i-ll-make-sure-we-achieve-all-of-our-dreams-all-i-ask-is-that-you-stay-by-my-side-keep-me-motivated-and-give-me-a-gentle-scolding-every-now-and-then {
+   color: #ffffff;
+   text-align: left;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+}
+.dreams-heading,
+.dreams-heading * {
+   box-sizing: border-box;
+}
+.dreams-heading {
+   text-align: right;
+   font-family: "AlpinoVariable-Bold", sans-serif;
+   font-size: 64px;
+   line-height: 76px;
+   font-weight: 700;
+   position: relative;
+}
+.dreams-heading-span {
+   color: #ffffff;
+}
+.dreams-heading-span2 {
+   color: #d94553;
+}
+.dreams-articles,
+.dreams-articles * {
+   box-sizing: border-box;
+}
+.dreams-articles {
+   color: #ffffff;
+   text-align: right;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+}
+.the-dreams-image {
+   height: 586.31px;
+   position: absolute;
+   right: -90px;
+   bottom: -50px;
+   z-index: 2;
+}
+.the-dreams-image-2 {
+   height: 786.31px;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   z-index: 1;
+}
+
+/* the dreams we re living end */
+
+/* video start */
+.video {
+   align-self: stretch;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 0 108px;
+   box-sizing: border-box;
+   margin-top: -225px;
+   text-align: left;
+   font-size: var(--font-size-xl);
+   color: var(--color-white);
+   font-family: var(--font-quicksand);
+}
+.video-bg {
+   height: 130vh;
+   flex: 1;
+   border-radius: var(--br-101xl) var(--br-101xl) 0 0;
+   background-color: #ea5362;
+   overflow: hidden;
+   flex-shrink: 0;
+   z-index: 18;
+   position: relative;
+}
+.gift-svgrepo-com-1-icon {
+   opacity: 0;
+   visibility: hidden;
+   margin-top: -150px;
+   transform: rotate(0deg);
+}
+
+.gift-svgrepo-com-1-icon.hide {
+   animation: giftAnimateHide 1s forwards;
+}
+
+@keyframes giftAnimateHide {
+   0% {
+      opacity: 1;
+      visibility: visible;
+      transform: rotate(0deg);
+   }
+   50% {
+      opacity: 0.5;
+      visibility: visible;
+      transform: rotate(180deg);
+   }
+   100% {
+      opacity: 0;
+      visibility: hidden;
+      transform: rotate(360deg);
+   }
+}
+.gift-svgrepo-com-1-icon.show {
+   animation: giftAnimateShow 1s forwards;
+}
+@keyframes giftAnimateShow {
+   0% {
+      opacity: 0;
+      visibility: visible;
+      transform: rotate(0deg);
+   }
+   50% {
+      opacity: 0.5;
+      visibility: visible;
+      transform: rotate(180deg);
+   }
+   100% {
+      opacity: 1;
+      visibility: visible;
+      transform: rotate(360deg);
+   }
+}
+#play-btn {
+   margin-top: -150px;
+   opacity: 0;
+   visibility: hidden;
+   transform: opacity 1s ease-in-out, visibility 1s ease-in-out;
+}
+#play-btn.hide {
+   animation: playBtnAnimateHide 1s forwards;
+}
+
+@keyframes playBtnAnimateHide {
+   0% {
+      opacity: 1;
+      visibility: visible;
+   }
+   50% {
+      opacity: 0.5;
+      visibility: visible;
+   }
+   100% {
+      opacity: 0;
+      visibility: hidden;
+   }
+}
+
+#play-btn.show {
+   animation: playBtnAnimateShow 1s forwards;
+}
+
+@keyframes playBtnAnimateShow {
+   0% {
+      opacity: 0;
+      visibility: visible;
+   }
+   50% {
+      opacity: 0.5;
+      visibility: visible;
+   }
+   100% {
+      opacity: 1;
+      visibility: visible;
+   }
+}
+
+.anniversary-video {
+   width: 0;
+   opacity: 0;
+   visibility: hidden;
+   border-radius: 75px;
+   z-index: 10;
+   position: relative;
+}
+.anniversary-video.hide {
+   animation: videoAnimateHide 1s forwards;
+}
+@keyframes videoAnimateHide {
+   0% {
+      opacity: 1;
+      visibility: visible;
+      width: 75%;
+   }
+   100% {
+      opacity: 0;
+      visibility: hidden;
+      width: 0;
+   }
+}
+.anniversary-video.show {
+   animation: videoAnimateShow 1s forwards;
+}
+@keyframes videoAnimateShow {
+   0% {
+      opacity: 0;
+      visibility: visible;
+      width: 0;
+   }
+   100% {
+      opacity: 1;
+      visibility: visible;
+      width: 75%;
+   }
+}
+/* video end */
+
+/* promise start */
+.promise {
+   align-self: stretch;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 0 147px;
+   box-sizing: border-box;
+   margin-top: -225px;
+   text-align: left;
+   font-size: var(--font-size-xl);
+   color: var(--color-white);
+   font-family: var(--font-quicksand);
+}
+.promise-bg {
+   height: 1424px;
+   flex: 1;
+   position: relative;
+   border-radius: 120px 120px 0 0;
+   background-color: #020202;
+   overflow: hidden;
+   flex-shrink: 0;
+   max-width: 100%;
+   z-index: 18;
+   position: relative;
+   padding-top: 5.1em;
+}
+.promise-bg-ellipse {
+   backdrop-filter: blur(3px);
+   background-color: rgba(52, 52, 52, 0.3);
+   border-radius: var(--br-101xl) var(--br-101xl) 0 0;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+.promise-bg-ellipse-2 {
+   background: rgba(217, 69, 83, 0.2);
+   border-radius: 50% 50% 0 0;
+   height: 376px;
+   width: 90%;
+   position: relative;
+   filter: blur(500px);
+   position: absolute;
+   top: 59.5%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: -5;
+}
+.promise-bg-circle-image-1,
+.promise-bg-circle-image-2,
+.promise-bg-circle-image-3,
+.promise-bg-circle-image-4,
+.promise-bg-circle-image-5,
+.promise-bg-circle-image-6,
+.promise-bg-circle-image-7,
+.promise-bg-circle-image-8,
+.promise-bg-circle-image-9 {
+   position: absolute;
+   z-index: -2;
+}
+.promise-bg-circle-image-1 {
+   top: 370px;
+   left: 17%;
+   transform: translateX(-50%);
+   width: 29.26px;
+   height: 29.26px;
+}
+.promise-bg-circle-image-2 {
+   top: 430px;
+   left: 31%;
+   transform: translateX(-50%);
+   width: 29.26px;
+   height: 29.26px;
+}
+.promise-bg-circle-image-3 {
+   top: 45.7%;
+   left: 82.1%;
+   transform: translate(-50%, -50%);
+   width: 38.12px;
+   height: 38.12px;
+}
+.promise-bg-circle-image-4 {
+   top: 46.5%;
+   left: 75%;
+   transform: translate(-50%, -50%);
+   width: 14.44px;
+   height: 14.44px;
+}
+.promise-bg-circle-image-5 {
+   top: 81.5%;
+   left: 9%;
+   transform: translate(-50%, -50%);
+   width: 69.96px;
+   height: 69.96px;
+}
+.promise-bg-circle-image-6 {
+   top: 79.5%;
+   left: 17%;
+   transform: translate(-50%, -50%);
+   width: 14.14px;
+   height: 14.14px;
+}
+.promise-bg-circle-image-7 {
+   top: 67%;
+   left: 83%;
+   transform: translate(-50%, -50%);
+   width: 22.24px;
+   height: 22.24px;
+}
+.promise-bg-circle-image-8 {
+   top: 79.9%;
+   left: 89%;
+   transform: translate(-50%, -50%);
+   width: 22.24px;
+   height: 22.24px;
+}
+.promise-bg-circle-image-9 {
+   top: 69%;
+   left: 92.5%;
+   transform: translate(-50%, -50%);
+   width: 21.58px;
+   height: 21.58px;
+}
+.promises-heading * {
+   text-align: left;
+   font-family: "AlpinoVariable-Bold", sans-serif;
+   font-size: 128px;
+   line-height: 150px;
+   font-weight: 700;
+   position: relative;
+   box-sizing: border-box;
+   word-break: break-word;
+   white-space: normal;
+}
+.promises-heading > .promises-heading-span {
+   color: #ffffff;
+}
+.promises-heading > .promises-heading-span2 {
+   background: linear-gradient(
+      90.84deg,
+      rgba(213, 115, 173, 1) 0%,
+      rgba(255, 91, 188, 1) 100%
+   );
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.promise-background-image {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+.promise-background-image-2 {
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+.promise-background-image-3 {
+   display: none;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+}
+.promise-image-wrapper-1 {
+   position: absolute;
+   top: 730px;
+   left: 0;
+   width: 319.73px;
+   height: 426.02px;
+   /* transform: translateY(-50%); */
+   /* background-color: #bf2030; */
+}
+.promise-image-wrapper-1 > img {
+   width: 319.73px;
+   height: 526.02px;
+}
+.promise-image-wrapper-1 > .promise-image-text-1 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+
+.i-promise-to-love-you-even-in-your-bad-hair-days,
+.i-promise-to-love-you-even-in-your-bad-hair-days * {
+   box-sizing: border-box;
+}
+.i-promise-to-love-you-even-in-your-bad-hair-days {
+   color: #ffffff;
+   text-align: center;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 32px;
+   font-weight: 500;
+   position: relative;
+   width: 234px;
+   rotate: 9deg;
+   padding: 7.3rem 0 0 1rem;
+}
+.promise-image-wrapper-2 {
+   position: absolute;
+   top: 990px;
+   left: 53%;
+   width: 320px;
+   height: 371px;
+   transform: translate(-50%, -50%);
+   /* background-color: #bf2030; */
+}
+.promise-image-wrapper-2 > img {
+   width: 320px;
+   height: 401px;
+}
+.promise-image-wrapper-2 > .promise-image-text-2 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+
+.i-promise-to-always-steal-your-fries,
+.i-promise-to-always-steal-your-fries * {
+   box-sizing: border-box;
+}
+.i-promise-to-always-steal-your-fries {
+   color: #ffffff;
+   text-align: center;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 32px;
+   font-weight: 500;
+   position: relative;
+   width: 234px;
+   rotate: -9deg;
+   padding: 7rem 0 0 0;
+}
+.promise-image-wrapper-3 {
+   position: absolute;
+   top: 145px;
+   right: 50px;
+   width: 319.73px;
+   height: 383px;
+   /* transform: translate(-50%, -50%); */
+   /* background-color: #bf2030; */
+}
+.promise-image-wrapper-3 > img {
+   width: 320px;
+   height: 401px;
+}
+.promise-image-wrapper-3 > .promise-image-text-3 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+.i-promise-to-love-you-even-in-your-bad-hair-days,
+.i-promise-to-love-you-even-in-your-bad-hair-days * {
+   box-sizing: border-box;
+}
+.i-promise-to-love-you-even-in-your-bad-hair-days {
+   color: #ffffff;
+   text-align: center;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 32px;
+   font-weight: 500;
+   position: relative;
+   width: 234px;
+}
+/* promise end */
+/* photo start */
+section.photo {
+   width: 100%;
+   align-self: stretch;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 0 147px;
+   box-sizing: border-box;
+   margin-top: -425px;
+   text-align: left;
+   font-size: var(--font-size-xl);
+   color: var(--color-white);
+   font-family: var(--font-quicksand);
+}
+.photo-bg {
+   height: auto;
+   flex: 1;
+   position: relative;
+   border-radius: 120px 120px 0 0;
+   background-color: #ea87be;
+   overflow: hidden;
+   flex-shrink: 0;
+   width: 100%;
+   z-index: 18;
+   position: relative;
+   padding-top: 5.1em;
+   padding-bottom: 5.1em;
+}
+.photo-frame {
+   width: 95%;
+   height: 672px;
+   background-color: #bf2030;
+   margin: 0 auto;
+   border-radius: 60px;
+   position: relative;
+}
+.photo-frame-side-image-one {
+   position: absolute;
+   top: -15px;
+   left: -15px;
+   width: 79.26px;
+   height: 74.3px;
+}
+.photo-frame-side-image-two {
+   position: absolute;
+   bottom: -30px;
+   left: -30px;
+   width: 246.67px;
+   height: 296px;
+}
+.photo-frame-side-image-three {
+   position: absolute;
+   bottom: -15px;
+   right: -15px;
+   width: 79.26px;
+   height: 74.3px;
+}
+.photo-frame-image {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   z-index: 1;
+   border-radius: 60px;
+}
+.forever-and-beyond {
+   background: linear-gradient(
+      180deg,
+      rgba(234, 83, 98, 1) 0%,
+      rgba(191, 32, 48, 1) 100%
+   );
+   border-radius: 60px;
+   border-style: solid;
+   border-color: #ff8c97;
+   border-width: 6px;
+   padding: 59px 154px 59px 154px;
+   width: 100% !important;
+   position: relative;
+   margin-top: 7rem;
+}
+.forever-and-beyond-text,
+.forever-and-beyond-text * {
+   text-align: left;
+   font-family: "Quicksand-Medium", sans-serif;
+   font-size: 35px;
+   font-weight: 500;
+   color: #ffffff;
+}
+/* photo end */
+
+.akht-icon,
+.akht-wrapper,
+.our-meet {
+   max-width: 100%;
+   position: relative;
+}
+
+.akht-icon {
+   height: 1316px;
+   flex: 1;
+   border-radius: 0 0 var(--br-101xl) var(--br-101xl);
+   overflow: hidden;
+   object-fit: contain;
+   flex-shrink: 0;
+   z-index: 17;
+}
+
+.akht-wrapper {
+   align-self: stretch;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 0 25px;
+   box-sizing: border-box;
+   margin-top: -241px;
+}
+
+.memories-we-made-child {
+   top: 95.1px;
+   right: 228.1px;
+}
+
+.memories-we-made-child,
+.memories-we-made-inner,
+.memories-we-made-item {
+   position: absolute;
+   width: 35.8px;
+   height: 35.8px;
+   object-fit: contain;
+}
+
+.memories-we-made-item {
+   top: 95.1px;
+   left: 720px;
+}
+
+.memories-we-made-inner {
+   top: 206px;
+   right: 556.2px;
+}
+
+.memories-we-made-child1,
+.memories-we-made-child2,
+.memories-we-made-child3 {
+   position: absolute;
+   top: 811px;
+   left: 987px;
+   width: 14.9px;
+   height: 14.9px;
+   object-fit: contain;
+}
+
+.memories-we-made-child2,
+.memories-we-made-child3 {
+   top: 456px;
+   left: 270px;
+}
+
+.memories-we-made-child3 {
+   top: 150px;
+   left: 358px;
+   width: 24.4px;
+   height: 24.4px;
+}
+
+.memories-we-made-child5 {
+   position: absolute;
+   top: 588px;
+   right: 96.4px;
+   width: 20.6px;
+   height: 20.6px;
+   object-fit: contain;
+}
+
+.heading1 {
+   margin: 0;
+   width: 515px;
+   flex: 1;
+   position: relative;
+   font-size: var(--font-size-45xl);
+   line-height: 76px;
+   font-weight: 700;
+   font-family: var(--font-alpino-variable);
+   display: inline-block;
+}
+
+.youve-made-me-container {
+   align-self: stretch;
+   position: relative;
+   font-weight: 500;
+}
+
+.snacks-article {
+   position: absolute;
+   top: 141px;
+   left: 270px;
+   width: 681px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   gap: 36px;
+   max-width: 100%;
+}
+
+.amazing-travel-inner-child {
+   height: 24.4px;
+   width: 24.4px;
+   position: relative;
+   object-fit: contain;
+}
+
+.these-last-two-container {
+   width: 589px;
+   position: relative;
+   font-weight: 500;
+   display: inline-block;
+}
+
+.we-havent-traveled-container {
+   align-self: stretch;
+   flex: 1;
+   position: relative;
+   font-weight: 500;
+   color: var(--color-white);
+}
+
+.amazing-travel-inner,
+.these-last-two-years-have-been-parent {
+   align-self: stretch;
+   display: flex;
+   justify-content: flex-start;
+   max-width: 100%;
+}
+
+.these-last-two-years-have-been-parent {
+   width: 681px;
+   flex-direction: column;
+   align-items: flex-end;
+   gap: 647px;
+   flex-shrink: 0;
+}
+
+.amazing-travel-inner {
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+.amazing-pngwing-inner-child,
+.amazing-pngwing-inner-item {
+   position: absolute;
+   top: 232px;
+   left: 653px;
+   width: 35.8px;
+   height: 35.8px;
+   object-fit: contain;
+}
+
+.amazing-pngwing-inner-item {
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.amazing-pngwing-inner {
+   position: absolute;
+   top: 0;
+   left: -159px;
+   width: 1047.4px;
+   height: 922.8px;
+}
+
+.pngwingcom41-1-icon {
+   position: absolute;
+   top: 426.5px;
+   left: 23.2px;
+   width: 622.7px;
+   height: 622.7px;
+   object-fit: contain;
+   z-index: 3;
+}
+
+.amazing-pngwing {
+   height: 1049.2px;
+   width: 888.4px;
+   position: relative;
+   max-width: 131%;
+   flex-shrink: 0;
+}
+
+.amazing-travel {
+   position: absolute;
+   top: 243px;
+   left: 270px;
+   width: 1378px;
+   height: 797px;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 0 0 697px;
+   box-sizing: border-box;
+   max-width: 100%;
+   text-align: right;
+   color: #dfdfdf;
+}
+
+.ellipse-icon {
+   position: absolute;
+   top: 480px;
+   left: 1193px;
+   border-radius: 50%;
+   width: 252px;
+   height: 252px;
+   object-fit: cover;
+}
+.the-dreams-were-living {
+   height: 1227px;
+   flex: 1;
+   position: relative;
+   border-radius: 0 0 var(--br-101xl) var(--br-101xl);
+   max-width: 100%;
+   overflow: hidden;
+   object-fit: contain;
+   flex-shrink: 0;
+   z-index: 19;
+}
+
+.the-dreams-were-living-wrapper {
+   align-self: stretch;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 0 94px;
+   box-sizing: border-box;
+   max-width: 100%;
+   margin-top: -241px;
+   position: relative;
+}
+
+.video-section-child {
+   width: 35.8px;
+   height: 35.8px;
+   position: absolute;
+   margin: 0 !important;
+   top: 95.1px;
+   right: 228.1px;
+   object-fit: contain;
+   z-index: 0;
+}
+
+.video-section-item {
+   top: 95.1px;
+   left: 720px;
+   z-index: 1;
+}
+
+.video-section-child1,
+.video-section-inner,
+.video-section-item {
+   width: 35.8px;
+   height: 35.8px;
+   position: absolute;
+   margin: 0 !important;
+   object-fit: contain;
+}
+
+.video-section-inner {
+   bottom: 433.2px;
+   left: 494px;
+   z-index: 2;
+}
+
+.video-section-child1 {
+   top: 206px;
+   right: 556.2px;
+   z-index: 3;
+}
+
+.video-section-child2,
+.video-section-child3 {
+   width: 14.9px;
+   height: 14.9px;
+   position: absolute;
+   margin: 0 !important;
+   object-fit: contain;
+}
+
+.video-section-child2 {
+   right: 918.1px;
+   bottom: 358.1px;
+   z-index: 4;
+}
+
+.video-section-child3 {
+   top: 456px;
+   left: 270px;
+   z-index: 5;
+}
+
+.video-section-child4,
+.video-section-child5 {
+   width: 24.4px;
+   height: 24.4px;
+   position: absolute;
+   margin: 0 !important;
+   object-fit: contain;
+}
+
+.video-section-child4 {
+   right: 371.6px;
+   bottom: 141.6px;
+   z-index: 6;
+}
+
+.video-section-child5 {
+   top: 150px;
+   left: 358px;
+   z-index: 7;
+}
+
+.video-section-child6,
+.video-section-child7 {
+   width: 20.6px;
+   height: 20.6px;
+   object-fit: contain;
+}
+
+.video-section-child6 {
+   position: absolute;
+   margin: 0 !important;
+   top: 423px;
+   right: 488.4px;
+   z-index: 8;
+}
+
+.video-section-child7 {
+   right: 96.4px;
+   bottom: 575.4px;
+   z-index: 9;
+}
+
+.video-section-child7,
+.video-section-child8,
+.video-shape {
+   position: absolute;
+   margin: 0 !important;
+}
+
+.video-section-child8 {
+   width: 14.9px;
+   height: 14.9px;
+   right: 893.1px;
+   bottom: 358.1px;
+   object-fit: contain;
+   z-index: 10;
+}
+
+.video-shape {
+   height: 100px;
+   width: 172px;
+   top: calc(50% - 50px);
+   left: calc(50% - 86px);
+   border-radius: var(--br-41xl);
+   background-color: #d9d9d9;
+   z-index: 0;
+}
+
+.frame-child5,
+.video-shape-parent {
+   height: 198px;
+   width: 198px;
+   position: relative;
+   z-index: 1;
+}
+
+.video-shape-parent {
+   margin: 0 !important;
+   position: absolute;
+   top: 464px;
+   left: 848px;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   z-index: 11;
+}
+
+.gift-svgrepo-com-1-icon,
+.video-section {
+   overflow: hidden;
+   flex-shrink: 0;
+   position: relative;
+}
+
+.gift-svgrepo-com-1-icon {
+   width: 476px;
+   height: 476px;
+   z-index: 12;
+}
+
+.video-section {
+   height: 1184px;
+   width: 100%;
+   border-radius: var(--br-101xl) var(--br-101xl) 0 0;
+   background-color: var(--color-indianred);
+   margin-top: -200px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 271px 708px 437px;
+   box-sizing: border-box;
+}
+
+.promise-section,
+.video-section-wrapper {
+   position: relative;
+   max-width: 100%;
+   margin-top: -241px;
+   z-index: 1;
+}
+
+.video-section-wrapper {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 0 71px;
+   box-sizing: border-box;
+}
+
+.promise-section {
+   align-self: stretch;
+   border-radius: 0 0 var(--br-101xl) var(--br-101xl);
+   overflow: hidden;
+   max-height: 100%;
+   object-fit: contain;
+   flex-shrink: 0;
+   z-index: 21;
+}
+
+.couple-photo-section-child1,
+.couple-photo-section-inner {
+   position: absolute;
+   top: 715px;
+   left: 494px;
+   width: 35.8px;
+   height: 35.8px;
+   object-fit: contain;
+}
+
+.couple-photo-section-child1 {
+   top: 206px;
+   left: 1328px;
+}
+
+.couple-photo-section-child8,
+.couple-photo-section-child9 {
+   position: absolute;
+   top: 157px;
+   left: 258px;
+   width: 79.3px;
+   height: 74.3px;
+}
+
+.couple-photo-section-child9 {
+   top: 783px;
+   left: 1584px;
+   object-fit: contain;
+}
+
+.pngwingcom39-1-icon {
+   position: absolute;
+   top: 578px;
+   left: 235px;
+   width: 246.7px;
+   height: 296px;
+   object-fit: cover;
+}
+
+.photo-section1 {
+   width: 90%;
+   position: relative;
+   border-radius: var(--br-41xl);
+   max-height: 100%;
+   object-fit: cover;
+}
+
+.happy-anniversary {
+   margin-left: -409px;
+   width: 397px;
+   z-index: 5;
+}
+
+.forever-and-beyond,
+.happy-anniversary,
+.my-love-heres {
+   position: relative;
+   font-size: var(--font-size-21xl);
+   font-weight: 500;
+   font-family: var(--font-quicksand);
+   color: var(--color-white);
+   text-align: left;
+   display: inline-block;
+   flex-shrink: 0;
+}
+
+.my-love-heres {
+   width: 344px;
+   z-index: 1;
+}
+
+.forever-and-beyond {
+   width: 398px;
+}
+
+.beyond-wrapper {
+   height: 50px;
+   width: 410px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 12px 0 0;
+   box-sizing: border-box;
+}
+
+.forever-and-beyond1,
+.happy-anniversary1,
+.my-love-heres1 {
+   width: 397px;
+   position: relative;
+   font-size: var(--font-size-21xl);
+   font-weight: 500;
+   font-family: var(--font-quicksand);
+   color: var(--color-white);
+   text-align: left;
+   display: inline-block;
+   flex-shrink: 0;
+   z-index: 6;
+}
+
+.forever-and-beyond1,
+.my-love-heres1 {
+   width: 344px;
+   z-index: 2;
+}
+
+.forever-and-beyond1 {
+   width: 398px;
+   z-index: 4;
+}
+
+.component-2 {
+   width: 1187px;
+   height: 50px;
+   overflow: hidden;
+   flex-shrink: 0;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 0 53px 0 380px;
+   box-sizing: border-box;
+   gap: 12px;
+}
+
+.anniversary-message-wrapper,
+.photo-section-group {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+.anniversary-message-wrapper {
+   cursor: pointer;
+   border: 6px solid #ff8c97;
+   padding: 52px 148px;
+   background-color: transparent;
+   align-self: stretch;
+   height: 168px;
+   border-radius: var(--br-41xl);
+   background: linear-gradient(180deg, var(--color-indianred), #bf2030);
+   box-sizing: border-box;
+   align-items: flex-start;
+}
+
+.photo-section-group {
+   position: absolute;
+   top: 172px;
+   left: 213px;
+   width: 1495px;
+   align-items: center;
+   gap: 72px;
+   max-width: 100%;
+}
+
+.couple-photo-section {
+   align-self: stretch;
+   height: 1281px;
+   position: relative;
+   border-radius: var(--br-101xl) var(--br-101xl) 0 0;
+   background-color: var(--color-palevioletred);
+   overflow: hidden;
+   flex-shrink: 0;
+   max-width: 100%;
+   z-index: 22;
+   margin-top: -241px;
+}
+@media screen and (max-width: 2475px) {
+   .promise-image-wrapper-1 {
+      top: 650px;
+   }
+   .promise-image-wrapper-2 {
+      top: 870px;
+   }
+   .promise-image-wrapper-3 {
+      top: 121px;
+   }
+}
+@media screen and (max-width: 2275px) {
+   .promise-image-wrapper-1 {
+      top: 570px;
+   }
+   .promise-image-wrapper-2 {
+      top: 830px;
+   }
+   .promise-image-wrapper-3 {
+      top: 71px;
+   }
+}
+@media screen and (max-width: 2125px) {
+   .promise-image-wrapper-1 {
+      top: 500px;
+   }
+   .promise-image-wrapper-2 {
+      top: 770px;
+   }
+   .promise-image-wrapper-3 {
+      top: 51px;
+   }
+}
+@media screen and (max-width: 2025px) {
+   .promise-image-wrapper-1 {
+      top: 450px;
+   }
+   .promise-image-wrapper-2 {
+      top: 720px;
+   }
+   .promise-image-wrapper-3 {
+      top: 31px;
+   }
+}
+@media screen and (max-width: 1875px) {
+   .promise-image-wrapper-1 {
+      top: 390px;
+   }
+   .promise-image-wrapper-2 {
+      top: 670px;
+   }
+   .promise-image-wrapper-3 {
+      top: 21px;
+   }
+}
+@media screen and (max-width: 1825px) {
+   .lovesvg-child5 {
+      left: 87.5%;
+      transform: translateX(-50%);
+   }
+   .lovesvg-item {
+      left: 95%;
+      transform: translateX(-50%);
+   }
+   .lovesvg-child1 {
+      left: 83.9%;
+      transform: translateX(-50%);
+   }
+}
+@media screen and (max-width: 1775px) {
+   .promise-background-image {
+      top: 70px;
+   }
+   .promise-image-wrapper-3 {
+      top: 51px;
+   }
+}
+@media screen and (max-width: 1625px) {
+   .promise-background-image {
+      top: 110px;
+   }
+   .promise-image-wrapper-3 {
+      top: 91px;
+   }
+}
+@media screen and (max-width: 1575px) {
+   .promise-background-image {
+      top: 130px;
+   }
+   .promise-image-wrapper-3 {
+      top: 111px;
+   }
+}
+@media screen and (max-width: 1475px) {
+   .promise-background-image {
+      top: 170px;
+   }
+   .promise-image-wrapper-3 {
+      top: 151px;
+   }
+}
+@media screen and (max-width: 1425px) {
+   .desctop-happy-container {
+      width: 721px;
+      margin: 0 auto;
+   }
+   .pngwingcom30-1-icon {
+      display: none;
+   }
+   .happy {
+      position: static;
+   }
+   .pngwingcom28-1-icon {
+      top: 11px;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+   .anniversary {
+      position: static;
+      padding-top: 0.37em;
+   }
+   .my-sanshine-parent {
+      position: static;
+      width: 100%;
+      gap: 7px;
+   }
+   .my-sanshine {
+      margin: 0 auto !important;
+      padding: 0;
+   }
+
+   .article {
+      padding: 0;
+      text-align: center;
+   }
+
+   .rectangle-icon {
+      position: absolute;
+      top: 313px;
+      left: -175px;
+      border-radius: var(--br-41xl);
+      width: 554px;
+      height: 625.4px;
+      object-fit: contain;
+      z-index: 4;
+   }
+   .our-meet-last-child {
+      padding: 1.7em 0 3em 0;
+   }
+   .photo-frame {
+      height: 550px;
+   }
+}
+@media screen and (max-width: 1275px) {
+   .promise-image-wrapper-1 {
+      top: 350px;
+   }
+   .promise-image-wrapper-2 {
+      top: 600px;
+   }
+   .promise-image-wrapper-3 {
+      top: 121px;
+   }
+}
+@media screen and (max-width: 1200px) {
+   .hero-section {
+      padding-top: 131px;
+      padding-bottom: 311px;
+      box-sizing: border-box;
+   }
+   .hero,
+   .memories,
+   .our-meet {
+      padding-bottom: 73px;
+      box-sizing: border-box;
+   }
+
+   .rectangle-icon {
+      top: 613px;
+   }
+   .rectangle-div {
+      top: 613px;
+   }
+   .love-svgrepo-com1-1-icon {
+      top: 541px;
+   }
+   .lovesvg-child8 {
+      top: 674px;
+   }
+   .lovesvg-child7 {
+      top: 691px;
+   }
+   .love-svgrepo-com1-8-icon {
+      top: 163.1px;
+   }
+   .love-svgrepo-com1-15-icon {
+      top: 717px;
+   }
+   .frame-child {
+      top: 305px;
+   }
+   .lovesvg-child6 {
+      top: 930.25px;
+   }
+   .love-svgrepo-com1-22-icon {
+      top: 425px;
+   }
+   .our-meet {
+      margin-top: -365px;
+   }
+   .our-firts-meet {
+      padding-bottom: 2.5em;
+   }
+
+   .photo {
+      width: 152px;
+      height: 152px;
+   }
+   .akht {
+      margin-top: -211px;
+   }
+   .akht-bg {
+      padding-bottom: 7.5em;
+   }
+
+   .memories,
+   .our-meet {
+      padding-bottom: 96px;
+   }
+
+   .memories {
+      padding-bottom: 70px;
+   }
+   .memories-we-made {
+      padding-bottom: 29em;
+   }
+   .the-dreams-were-living-bg {
+      padding-bottom: 33.1em;
+   }
+
+   .the-dreams-were-living-wrapper {
+      padding-bottom: 61px;
+      box-sizing: border-box;
+   }
+
+   .video-section-wrapper {
+      padding-bottom: 46px;
+      box-sizing: border-box;
+   }
+   .promise-bg {
+      height: 2824px;
+   }
+   .promise-background-image {
+      top: 59%;
+      transform: translateY(-50%);
+   }
+   .promise-background-image-2 {
+      display: block;
+      top: -0px;
+   }
+   .promise-background-image-3 {
+      display: block;
+      bottom: -100px;
+   }
+   .promise-image-wrapper-1 {
+      top: 33%;
+      left: 37%;
+      transform: translate(-50%, -50%);
+   }
+   .promise-image-wrapper-2 {
+      top: 59%;
+      left: 57%;
+      transform: translate(-50%, -50%);
+   }
+   .promise-image-wrapper-3 {
+      top: 83%;
+      left: 51%;
+      transform: translate(-50%, -50%);
+   }
+   section.photo {
+      width: 100%;
+      margin-top: -255px;
+   }
+}
+@media screen and (max-width: 1075px) {
+   .promise-background-image {
+      top: 50%;
+   }
+   .promise-background-image-3 {
+      bottom: 190px;
+   }
+   .promise-image-wrapper-1 {
+      top: 29%;
+   }
+   .promise-image-wrapper-2 {
+      top: 50%;
+   }
+   .promise-image-wrapper-3 {
+      top: 75%;
+      left: 53%;
+   }
+   section.photo {
+      margin-top: -455px;
+   }
+}
+@media screen and (max-width: 993px) {
+   .promise-background-image-3 {
+      bottom: 250px;
+   }
+   .promise-image-wrapper-3 {
+      top: 75%;
+   }
+   .photo-frame {
+      height: 450px;
+   }
+}
+@media screen and (max-width: 925px) {
+   .hero-section {
+      height: 181vh;
+   }
+   .rectangle-icon {
+      top: 613px;
+      left: -115px;
+      width: 354px;
+   }
+   .rectangle-div {
+      top: 730px;
+      left: -23px;
+   }
+   .love-svgrepo-com1-1-icon {
+      top: 665px;
+      left: 130px;
+   }
+   .lovesvg-child8 {
+      top: 674px;
+      left: 30px;
+      width: 354px;
+   }
+   .lovesvg-child7 {
+      top: 767px;
+      left: 221.5px;
+   }
+   .love-svgrepo-com1-8-icon {
+      top: 243.1px;
+      left: 30px;
+   }
+   .love-svgrepo-com1-15-icon {
+      top: 801px;
+      left: 381px;
+   }
+   .frame-child {
+      top: 225px;
+      left: -70px;
+      width: 354px;
+   }
+   .lovesvg-child6 {
+      top: 873.25px;
+      left: 387px;
+   }
+   .love-svgrepo-com1-22-icon {
+      top: 475px;
+      left: 300px;
+      rotate: 45deg;
+   }
+   .our-firts-meet {
+      border-radius: 50px 50px 0 0;
+   }
+
+   .akht {
+      margin-top: -141px;
+   }
+   .akht-bg {
+      border-radius: 50px 50px 0 0;
+      padding-bottom: 8.5em;
+   }
+   .akht-background-ellipse {
+      border-radius: 50px;
+   }
+   .memories-we-made {
+      border-radius: 50px 50px 0 0;
+      padding-bottom: 31em;
+   }
+   .the-dreams-were-living-bg {
+      border-radius: 50px 50px 0 0;
+   }
+   .the-dreams-we-re-living {
+      margin-top: -117px;
+   }
+   .video-bg {
+      border-radius: 50px 50px 0 0;
+   }
+   .gift-svgrepo-com-1-icon {
+      width: 300px;
+      height: 300px;
+   }
+   .promise-background-image-2 {
+      top: 70px;
+   }
+   .promise-background-image-3 {
+      bottom: 300px;
+   }
+   .promise-bg {
+      border-radius: 50px 50px 0 0;
+   }
+   .promises-heading * {
+      font-size: 87px;
+      line-height: 100px;
+   }
+   .photo-bg {
+      border-radius: 50px 50px 0 0;
+   }
+   .photo-frame-image {
+      border-radius: 20px;
+   }
+   .anniversary-video {
+      width: 90%;
+   }
+   .hero-bg-image-area-1,
+   .hero-bg-image-area-2,
+   .hero-bg-image-area-3 {
+      height: 432px;
+      width: 331px;
+   }
+   .hero-bg-image-area-1 {
+      left: -30px;
+   }
+   .hero-bg-image-area-2 {
+      top: 50%;
+      left: 190px;
+   }
+   .hero-bg-image-area-3 {
+      top: 55%;
+      left: 309px;
+   }
+   .hero-bg-image-area-2 .aaa-one {
+      top: -90.9px;
+      left: 51.3%;
+      rotate: -11deg;
+   }
+   .hero-bg-image-area-3 .meet-you {
+      top: -95.5px;
+      left: 50%;
+      rotate: -30deg;
+   }
+}
+@media screen and (max-width: 850px) {
+   .promise-background-image-2 {
+      top: 100px;
+   }
+   .promise-background-image-3 {
+      bottom: 350px;
+   }
+   .promise-image-wrapper-3 {
+      top: 73%;
+   }
+}
+@media screen and (max-width: 805px) {
+   .promise-background-image-2 {
+      top: 150px;
+   }
+   .promise-background-image-3 {
+      bottom: 400px;
+   }
+   .photo-frame {
+      height: 330px !important;
+   }
+}
+
+@media screen and (max-width: 750px) {
+   .desctop-happy-container {
+      width: 95%;
+   }
+   .hero-section {
+      box-sizing: border-box;
+   }
+   .hero-bg-image-area-1,
+   .hero-bg-image-area-2,
+   .hero-bg-image-area-3 {
+      height: 332px;
+      width: 231px;
+   }
+   .hero-bg-image-area-1 {
+      left: -10px;
+   }
+   .hero-bg-image-area-2 {
+      top: 53%;
+      left: 140px;
+   }
+   .hero-bg-image-area-3 {
+      top: 57%;
+      left: 229px;
+   }
+
+   .hero-bg-image-area-1 .hero-image-rectangle-1,
+   .hero-bg-image-area-2 .hero-image-rectangle-2,
+   .hero-bg-image-area-3 .hero-image-rectangle-3 {
+      width: 134.91px;
+   }
+
+   .hero-bg-image-area-1 .hero-image-rectangle-1 .once-upon,
+   .hero-bg-image-area-2 .hero-image-rectangle-2 .aaa-time,
+   .hero-bg-image-area-3 .hero-image-rectangle-3 .i-meeeet-you {
+      font-size: 13px;
+      padding: 0.71rem 0 0 0;
+   }
+   .anniversary {
+      font-size: var(--font-size-98xl);
+      padding-top: 0.67em;
+   }
+   .my-sanshine {
+      padding: 0.5em 0 0 0;
+   }
+   .heading-span {
+      font-size: 47px;
+   }
+   .heading-span2 {
+      font-size: 35px;
+   }
+   .hero,
+   .memories {
+      padding-bottom: 47px;
+      box-sizing: border-box;
+   }
+
+   .akht-headding {
+      font-size: 47px;
+   }
+   .akht-bg {
+      border-radius: 50px 50px 0 0;
+      padding-bottom: 6.5em;
+   }
+   .akht-bg-image {
+      height: 601px;
+   }
+   .akht-bg-image-2 {
+      height: 351px;
+      width: 351px;
+   }
+   .memories {
+      padding-bottom: 45px;
+   }
+   .memories-we-made {
+      padding-bottom: 23em;
+   }
+   .memories-heading {
+      font-size: 47px;
+   }
+   .mamories-image {
+      height: 378px;
+      left: -10px;
+   }
+   .mamories-image-2 {
+      height: 478px;
+   }
+
+   .the-dreams-we-re-living {
+      margin-top: -91px;
+   }
+   .the-dreams-were-living-wrapper {
+      padding-bottom: var(--padding-21xl);
+      box-sizing: border-box;
+   }
+   .dreams-heading {
+      font-size: 47px;
+   }
+   .the-dreams-image {
+      height: 486.31px;
+   }
+   .the-dreams-image-2 {
+      height: 586.31px;
+   }
+   .the-dreams-were-living-bg {
+      padding-bottom: 27.1em;
+   }
+   .video-section-wrapper {
+      padding-bottom: 30px;
+      box-sizing: border-box;
+   }
+   .promises-heading * {
+      font-size: 47px;
+      line-height: 60px;
+   }
+   .promise-background-image {
+      top: 41%;
+   }
+   .promise-background-image-2 {
+      top: -10px;
+   }
+   .promise-image-wrapper-1 {
+      top: 21%;
+      left: 37%;
+      transform: translate(-50%, -50%);
+   }
+   .promise-image-wrapper-2 {
+      top: 41%;
+   }
+   .promise-background-image-3 {
+      bottom: 700px;
+   }
+   .promise-image-wrapper-3 {
+      top: 63%;
+   }
+   section.photo {
+      margin-top: -755px;
+   }
+   .photo-frame {
+      height: 300px;
+   }
+   .forever-and-beyond {
+      padding: 3rem 5rem !important;
+   }
+}
+
+@media screen and (max-width: 675px) {
+   .promise-background-image-2 {
+      top: 30px;
+   }
+   .promise-background-image-3 {
+      bottom: 800px;
+   }
+   .promise-image-wrapper-3 {
+      top: 60%;
+   }
+   section.photo {
+      margin-top: -855px;
+   }
+}
+@media screen and (max-width: 615px) {
+   .promise-background-image-2 {
+      top: 70px;
+   }
+   .promise-image-wrapper-3 {
+      top: 63%;
+   }
+}
+@media screen and (max-width: 576px) {
+   .anniversary {
+      font-size: var(--font-size-45xl);
+      padding-top: 1.3em;
+   }
+   .our-meet-background-image {
+      height: 351px;
+      width: 351px;
+   }
+   .our-meet-background-image-x2 {
+      height: 391px;
+   }
+   .akht {
+      margin-top: -141px;
+   }
+   .memories-we-made {
+      padding-bottom: 15em;
+   }
+   .mamories-image {
+      height: 278px;
+      left: -10px;
+      bottom: -100px;
+   }
+   .mamories-image-2 {
+      height: 278px;
+   }
+   .video-bg {
+      height: 90vh;
+   }
+   .gift-svgrepo-com-1-icon {
+      margin-top: -70px;
+      width: 200px;
+      height: 200px;
+   }
+   .promise-background-image-2 {
+      top: 100px;
+   }
+   .promise-background-image-3 {
+      bottom: 870px;
+   }
+   .promise-image-wrapper-3 {
+      top: 60%;
+   }
+   .forever-and-beyond {
+      padding: 1.5rem 3rem !important;
+   }
+   .anniversary-video {
+      width: 95%;
+      border-radius: 30px;
+   }
+}
+@media screen and (max-width: 525px) {
+   .hero-bg-image-area-1,
+   .hero-bg-image-area-2,
+   .hero-bg-image-area-3 {
+      width: 173.95px;
+      height: 214.71px;
+      border-radius: 20px;
+   }
+   .hero-bg-image-area-1 .hero-bg-image-1,
+   .hero-bg-image-area-2 .hero-bg-image-2,
+   .hero-bg-image-area-3 .hero-bg-image-3 {
+      border-radius: 20px;
+   }
+   .hero-bg-image-area-1 {
+      left: 0;
+   }
+   .hero-bg-image-area-2 {
+      top: 52%;
+      left: 120px;
+   }
+   .hero-bg-image-area-3 {
+      top: 55%;
+      left: 199px;
+   }
+
+   .hero-bg-image-area-1 .hero-image-rectangle-1,
+   .hero-bg-image-area-2 .hero-image-rectangle-2,
+   .hero-bg-image-area-3 .hero-image-rectangle-3 {
+      width: auto;
+      padding: 0 1rem;
+      border-radius: 10px 20px 0px 0px;
+      top: -30px;
+   }
+
+   .hero-bg-image-area-1 .hero-image-rectangle-1 .once-upon,
+   .hero-bg-image-area-2 .hero-image-rectangle-2 .aaa-time,
+   .hero-bg-image-area-3 .hero-image-rectangle-3 .i-meeeet-you {
+      font-size: 13px;
+      padding: 0.51rem 0 0 0;
+   }
+   .hero-bg-image-area-2 .aaa-one {
+      top: -83.9px;
+      left: 47%;
+   }
+   .hero-bg-image-area-2 .aaa-two {
+      top: -51px;
+      right: -10px;
+   }
+   .hero-bg-image-area-3 .meet-you {
+      top: -85.5px;
+      left: 47%;
+      rotate: -15deg;
+   }
+   .our-meet {
+      margin-top: -395px;
+   }
+   .promise-bg {
+      height: 1700px;
+   }
+   .promise-background-image-2 {
+      top: 100px;
+   }
+   .promise-image-wrapper-1 {
+      top: 440px;
+      width: 135.9px;
+      height: 192.54px;
+   }
+   .promise-image-wrapper-1 img {
+      width: 135.9px;
+      height: 192.54px;
+   }
+   .i-promise-to-love-you-even-in-your-bad-hair-days {
+      font-size: 12px;
+      padding: 1rem 0 0 0;
+      width: 85.99px;
+   }
+   .promise-image-wrapper-2 {
+      left: 49%;
+      width: 148.42px;
+      height: 185.99px;
+   }
+   .promise-image-wrapper-2 img {
+      width: 148.42px;
+      height: 185.99px;
+   }
+   .i-promise-to-always-steal-your-fries {
+      font-size: 13px;
+      width: 90.24px;
+      padding: 2rem 0 0 0;
+   }
+   .promise-background-image-3 {
+      bottom: 430px;
+   }
+   .promise-image-wrapper-3 {
+      top: 57%;
+      width: 135.9px;
+      height: 192.54px;
+   }
+   .promise-image-wrapper-3 img {
+      width: 135.9px;
+      height: 192.54px;
+   }
+   .i-promise-to-love-you-even-in-your-bad-hair-days {
+      font-size: 13px;
+      width: 90.24px;
+      padding: 3rem 0 0 0;
+   }
+   section.photo {
+      margin-top: -655px;
+   }
+   .photo-frame {
+      height: 250px !important;
+   }
+   .photo-frame-side-image-one {
+      top: -3px;
+      left: -3px;
+      width: 23.18px;
+      height: 21.73px;
+   }
+   .photo-frame-side-image-two {
+      width: 71.67px;
+      height: 86px;
+      bottom: -10px;
+      left: -10px;
+   }
+   .photo-frame-side-image-three {
+      width: 23.18px;
+      height: 21.73px;
+      bottom: -3px;
+      right: -3px;
+   }
+}
+@media screen and (max-width: 475px) {
+   .promise-background-image-3 {
+      bottom: 450px;
+   }
+   .forever-and-beyond {
+      padding: 1.5rem 2rem !important;
+   }
+}
+@media screen and (max-width: 450px) {
+   .hero-bg-image-area-1,
+   .hero-bg-image-area-2,
+   .hero-bg-image-area-3 {
+      width: 173.95px;
+      height: 214.71px;
+      border-radius: 20px;
+   }
+   .hero-bg-image-area-1 {
+      left: 15px;
+      transform: rotate(-28.536deg) scale(1, 1) translateY(-50%);
+   }
+   .hero-bg-image-area-2 {
+      top: 48%;
+      left: 54%;
+      transform: rotate(0) scale(1, 1) translate(-50%, -50%);
+   }
+   .hero-bg-image-area-3 {
+      top: 53%;
+      left: 71%;
+      transform: rotate(31.464deg) scale(1, 1) translate(-50%, -50%);
+   }
+
+   .hero-bg-image-area-1 .hero-image-rectangle-1,
+   .hero-bg-image-area-2 .hero-image-rectangle-2,
+   .hero-bg-image-area-3 .hero-image-rectangle-3 {
+      width: auto;
+      padding: 0 1rem;
+      border-radius: 10px 20px 0px 0px;
+      top: -30px;
+   }
+
+   .hero-bg-image-area-1 .hero-image-rectangle-1 .once-upon,
+   .hero-bg-image-area-2 .hero-image-rectangle-2 .aaa-time,
+   .hero-bg-image-area-3 .hero-image-rectangle-3 .i-meeeet-you {
+      font-size: 13px;
+      padding: 0.51rem 0 0 0;
+   }
+   .anniversary,
+   .happy {
+      font-size: var(--font-size-45xl);
+   }
+   .pngwingcom28-1-icon {
+      width: 251px;
+      height: auto;
+      top: 17px;
+   }
+   .anniversary {
+      padding-top: 0.41em;
+   }
+
+   .my-sanshine {
+      font-size: 24px;
+      padding: 0.5em 0 0 0;
+   }
+
+   .our-meet {
+      margin-top: -465px;
+   }
+   .article {
+      font-size: var(--font-size-base);
+   }
+
+   .heading {
+      font-size: var(--font-size-19xl);
+   }
+
+   .do-you-remember-container,
+   .remember-when-we-container,
+   .then-we-exchanged-container {
+      font-size: var(--font-size-base);
+   }
+
+   .our-meet {
+      padding-bottom: var(--padding-21xl);
+      box-sizing: border-box;
+   }
+
+   .heading1 {
+      font-size: var(--font-size-19xl);
+      line-height: 46px;
+   }
+   .akht-bg {
+      border-radius: 50px 50px 0 0;
+      padding-bottom: 5em;
+   }
+   .akht-bg-image {
+      height: 501px;
+   }
+   .akht-bg-image-2 {
+      height: 251px;
+      width: 251px;
+   }
+   .the-dreams-image {
+      height: 386.31px;
+   }
+   .the-dreams-image-2 {
+      height: 486.31px;
+   }
+
+   .these-last-two-container,
+   .we-havent-traveled-container,
+   .youve-made-me-container {
+      font-size: var(--font-size-base);
+   }
+   .promise-background-image-2 {
+      top: 150px;
+   }
+   .promise-background-image-3 {
+      bottom: 470px;
+   }
+}
+@media screen and (max-width: 425px) {
+   .our-firts-meet {
+      padding-bottom: 0.5em;
+   }
+   .akht {
+      margin-top: -101px;
+   }
+   .our-meet-background-image {
+      height: 251px;
+      width: 251px;
+   }
+   .our-meet-background-image-x2 {
+      height: 291px;
+   }
+   .promise-background-image-2 {
+      top: 170px;
+   }
+   .promise-background-image-3 {
+      bottom: 490px;
+   }
+}
+@media screen and (max-width: 385px) {
+   .promise-background-image-3 {
+      bottom: 530px;
+   }
+   .photo {
+      width: 120px;
+      height: 120px;
+   }
+}
+@media screen and (max-width: 375px) {
+   .my-sanshine {
+      padding: 1em 0 0 0;
+   }
+   .akht-bg {
+      border-radius: 50px 50px 0 0;
+      padding-bottom: 4em;
+   }
+   .akht-bg-image {
+      height: 401px;
+   }
+   .akht-bg-image-2 {
+      height: 251px;
+      width: 251px;
+   }
+   .the-dreams-image {
+      height: 286.31px;
+      right: -30px;
+   }
+   .the-dreams-image-2 {
+      height: 386.31px;
+   }
+   .the-dreams-were-living-bg {
+      padding-bottom: 19.1em;
+   }
+   .promise-background-image-2 {
+      top: 200px;
+   }
+   .photo-frame {
+      height: 200px !important;
+   }
+}
+@media screen and (max-width: 350px) {
+   .anniversary,
+   .happy {
+      font-size: var(--font-size-32xl);
+   }
+   .pngwingcom28-1-icon {
+      width: 200px;
+      height: auto;
+   }
+   .promise-background-image-2 {
+      top: 220px;
+   }
+   .promise-background-image-3 {
+      bottom: 550px;
+   }
+}
+@media screen and (max-width: 315px) {
+   .photo {
+      width: 110px;
+      height: 110px;
+   }
+   .promise-background-image-2 {
+      top: 250px;
+   }
+   .promise-background-image-3 {
+      bottom: 570px;
+   }
+}
+@media screen and (max-width: 275px) {
+   .anniversary,
+   .happy {
+      font-size: var(--font-size-21xl);
+   }
+   .pngwingcom28-1-icon {
+      width: 150px;
+      height: auto;
+   }
+   .anniversary {
+      padding-top: 0.29em;
+   }
+   .photo {
+      width: 100px;
+      height: 100px;
+   }
+   .our-meet-background-image {
+      height: 251px;
+      width: 251px;
+   }
+   .our-meet-background-image-x2 {
+      height: 251px;
+   }
+   .promise-background-image-2 {
+      top: 270px;
+   }
+   .promise-background-image-3 {
+      bottom: 620px;
+   }
+   .promise-image-wrapper-3 {
+      top: 56%;
+   }
+   .photo-frame {
+      height: 170px !important;
+   }
+}
