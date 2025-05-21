@@ -1072,6 +1072,7 @@
    max-width: 100%;
    z-index: 16;
    padding-top: 0.7em;
+   padding-bottom: 1.7em;
 }
 .our-circle-1 {
    position: absolute;
@@ -1144,6 +1145,54 @@
    transform: translate(-50%, -50%);
    width: 19.94px;
    height: 19.94px;
+}
+
+.our-meet-bg-down-all-image {
+   position: absolute;
+   left: -73px;
+   bottom: 0;
+   /* background-color: aqua; */
+}
+.our-first-meet-image-1,
+.our-first-meet-image-2,
+.our-first-meet-image-3,
+.our-first-meet-image-4 {
+   position: absolute;
+   border-radius: 60px;
+   width: 307.83px;
+   height: 405.16px;
+   object-fit: cover;
+   transform-origin: 0 0;
+}
+.our-first-meet-image {
+   width: 453.16px;
+   height: 451px;
+   position: relative;
+   z-index: 2;
+}
+.our-first-meet-image-1 {
+   left: -70px;
+   top: 150px;
+   transform: rotate(-67.063deg) scale(1, 1);
+   z-index: 1;
+}
+.our-first-meet-image-2 {
+   left: 120px;
+   top: -200px;
+   transform: rotate(-16.322deg) scale(1, 1);
+   z-index: 1;
+}
+.our-first-meet-image-3 {
+   left: 475px;
+   top: -250px;
+   transform: rotate(32.827deg) scale(1, 1);
+   z-index: 1;
+}
+.our-first-meet-image-4 {
+   left: 730px;
+   top: 30px;
+   transform: rotate(88.935deg) scale(1, 1);
+   z-index: 1;
 }
 .our-meet-background-image {
    position: absolute;
@@ -1274,7 +1323,7 @@
    justify-content: flex-start;
    padding: 0 0 147px;
    box-sizing: border-box;
-   margin-top: -261px;
+   margin-top: -345px;
    text-align: left;
    font-size: 96px;
    color: var(--color-white);
@@ -1292,6 +1341,49 @@
    z-index: 16;
    padding-top: 1.1em;
    padding-bottom: 4.1em;
+}
+.akht-bg-down-right-side-all-image {
+   position: absolute;
+   bottom: 0;
+   right: -45px;
+}
+.akht-bg-right-image {
+   position: relative;
+   width: 453.16px;
+   height: 451px;
+   z-index: 10;
+}
+.akht-bg-right-image-1,
+.akht-bg-right-image-2,
+.akht-bg-right-image-3,
+.akht-bg-right-image-4 {
+   border-radius: 60px;
+   width: 307.83px;
+   height: 405.16px;
+   position: absolute;
+   transform-origin: 0 0;
+   object-fit: cover;
+   z-index: 7;
+}
+.akht-bg-right-image-1 {
+   top: -55px;
+   left: 75px;
+   transform: rotate(79.235deg) scale(1, 1);
+}
+.akht-bg-right-image-2 {
+   top: -35px;
+   left: 235px;
+   transform: rotate(129.976deg) scale(1, 1);
+}
+.akht-bg-right-image-3 {
+   top: 101px;
+   left: 335px;
+   transform: rotate(179.125deg) scale(1, 1);
+}
+.akht-bg-right-image-4 {
+   top: 251px;
+   left: 235px;
+   transform: rotate(-124.767deg) scale(1, 1);
 }
 .akht-bg-image {
    position: absolute;
@@ -1432,7 +1524,7 @@
    justify-content: flex-start;
    padding: 0 0 108px;
    box-sizing: border-box;
-   margin-top: -271px;
+   margin-top: -371px;
    text-align: left;
    font-size: var(--font-size-xl);
    color: var(--color-white);
@@ -1447,7 +1539,50 @@
    flex-shrink: 0;
    z-index: 18;
    padding-top: 5.1em;
-   padding-bottom: 19.1em;
+   padding-bottom: 25.1em;
+}
+.mamores-bg-down-left-side-all-image {
+   position: absolute;
+   bottom: 0;
+   left: 90px;
+}
+.mamores-bg-left-image {
+   position: relative;
+   width: 453.16px;
+   height: 451px;
+   z-index: 10;
+}
+.mamores-bg-left-image-1,
+.mamores-bg-left-image-2,
+.mamores-bg-left-image-3,
+.mamores-bg-left-image-4 {
+   border-radius: 60px;
+   width: 307.83px;
+   height: 405.16px;
+   position: absolute;
+   transform-origin: 0 0;
+   object-fit: cover;
+   z-index: 7;
+}
+.mamores-bg-left-image-1 {
+   top: 195px;
+   left: -115px;
+   transform: rotate(-73.998deg) scale(1, 1);
+}
+.mamores-bg-left-image-2 {
+   top: -165px;
+   left: -5px;
+   transform: rotate(-34.538deg) scale(1, 1);
+}
+.mamores-bg-left-image-3 {
+   top: -301px;
+   left: 335px;
+   transform: rotate(24.611deg) scale(1, 1);
+}
+.mamores-bg-left-image-4 {
+   top: -100px;
+   left: 647px;
+   transform: rotate(70.719deg) scale(1, 1);
 }
 
 .memories-heading,
@@ -1541,7 +1676,7 @@
    justify-content: flex-start;
    padding: 0 0 108px;
    box-sizing: border-box;
-   margin-top: -221px;
+   margin-top: -321px;
    text-align: left;
    font-size: var(--font-size-xl);
    color: var(--color-white);
@@ -1556,8 +1691,52 @@
    flex-shrink: 0;
    z-index: 18;
    padding-top: 5.1em;
-   padding-bottom: 19.1em;
+   padding-bottom: 27.1em;
    position: relative;
+}
+
+.live-dream-bg-down-right-side-all-image {
+   position: absolute;
+   bottom: 0;
+   right: 150px;
+}
+.live-dream-bg-right-image {
+   position: relative;
+   width: 453.16px;
+   height: 451px;
+   z-index: 10;
+}
+.live-dream-bg-right-image-1,
+.live-dream-bg-right-image-2,
+.live-dream-bg-right-image-3,
+.live-dream-bg-right-image-4 {
+   border-radius: 60px;
+   width: 307.83px;
+   height: 405.16px;
+   position: absolute;
+   transform-origin: 0 0;
+   object-fit: cover;
+   z-index: 7;
+}
+.live-dream-bg-right-image-1 {
+   top: 195px;
+   left: -115px;
+   transform: rotate(-73.998deg) scale(1, 1);
+}
+.live-dream-bg-right-image-2 {
+   top: -165px;
+   left: -5px;
+   transform: rotate(-34.538deg) scale(1, 1);
+}
+.live-dream-bg-right-image-3 {
+   top: -301px;
+   left: 335px;
+   transform: rotate(24.611deg) scale(1, 1);
+}
+.live-dream-bg-right-image-4 {
+   top: -100px;
+   left: 647px;
+   transform: rotate(70.719deg) scale(1, 1);
 }
 .the-dreams-bg-ellipse {
    backdrop-filter: blur(3px);
@@ -1703,7 +1882,7 @@
    justify-content: flex-start;
    padding: 0 0 108px;
    box-sizing: border-box;
-   margin-top: -225px;
+   margin-top: -315px;
    text-align: left;
    font-size: var(--font-size-xl);
    color: var(--color-white);
@@ -2928,6 +3107,11 @@ section.photo {
       top: 51px;
    }
 }
+@media screen and (max-width: 1725px) {
+   .we-shared-ice-cream-at-m-venpick-laughed-when-the-park-said-no-entry-classic-trick-found-matching-watches-bears-so-sweet-time-began-where-our-hearts-would-meet-a-quiet-kiss-in-the-evening-air-shahabuddin-held-the-start-of-our-care {
+      padding: 0 0 0 10em;
+   }
+}
 @media screen and (max-width: 1625px) {
    .promise-background-image {
       top: 110px;
@@ -2942,6 +3126,9 @@ section.photo {
    }
    .promise-image-wrapper-3 {
       top: 111px;
+   }
+   .we-shared-ice-cream-at-m-venpick-laughed-when-the-park-said-no-entry-classic-trick-found-matching-watches-bears-so-sweet-time-began-where-our-hearts-would-meet-a-quiet-kiss-in-the-evening-air-shahabuddin-held-the-start-of-our-care {
+      padding: 0 0 0 20em;
    }
 }
 @media screen and (max-width: 1475px) {
@@ -3004,7 +3191,23 @@ section.photo {
       height: 550px;
    }
 }
+@media screen and (max-width: 1375px) {
+   .we-shared-ice-cream-at-m-venpick-laughed-when-the-park-said-no-entry-classic-trick-found-matching-watches-bears-so-sweet-time-began-where-our-hearts-would-meet-a-quiet-kiss-in-the-evening-air-shahabuddin-held-the-start-of-our-care {
+      padding: 0 0 0 29em;
+   }
+}
+@media screen and (max-width: 1325px) {
+   .memories-we-made {
+      padding-bottom: 30.1em;
+   }
+}
 @media screen and (max-width: 1275px) {
+   .our-firts-meet {
+      padding-bottom: 5em;
+   }
+   .we-shared-ice-cream-at-m-venpick-laughed-when-the-park-said-no-entry-classic-trick-found-matching-watches-bears-so-sweet-time-began-where-our-hearts-would-meet-a-quiet-kiss-in-the-evening-air-shahabuddin-held-the-start-of-our-care {
+      padding: 0;
+   }
    .promise-image-wrapper-1 {
       top: 350px;
    }
@@ -3062,7 +3265,7 @@ section.photo {
       margin-top: -365px;
    }
    .our-firts-meet {
-      padding-bottom: 2.5em;
+      padding-bottom: 5em;
    }
 
    .photo {
@@ -3070,7 +3273,7 @@ section.photo {
       height: 152px;
    }
    .akht {
-      margin-top: -211px;
+      margin-top: -291px;
    }
    .akht-bg {
       padding-bottom: 7.5em;
@@ -3087,8 +3290,12 @@ section.photo {
    .memories-we-made {
       padding-bottom: 29em;
    }
+   .memories-we-made {
+      padding-bottom: 41.1em;
+   }
    .the-dreams-were-living-bg {
-      padding-bottom: 33.1em;
+      margin-top: 45px;
+      padding-bottom: 37.1em;
    }
 
    .the-dreams-were-living-wrapper {
@@ -3157,6 +3364,9 @@ section.photo {
    }
 }
 @media screen and (max-width: 993px) {
+   .the-dreams-were-living-bg {
+      padding-bottom: 43.1em;
+   }
    .promise-background-image-3 {
       bottom: 250px;
    }
@@ -3216,31 +3426,30 @@ section.photo {
       rotate: 45deg;
    }
    .our-firts-meet {
-      border-radius: 50px 50px 0 0;
-   }
-
-   .akht {
-      margin-top: -141px;
+      border-radius: 40px 40px 0 0;
    }
    .akht-bg {
-      border-radius: 50px 50px 0 0;
+      border-radius: 40px 40px 0 0;
       padding-bottom: 8.5em;
    }
    .akht-background-ellipse {
-      border-radius: 50px;
+      border-radius: 40px;
    }
    .memories-we-made {
-      border-radius: 50px 50px 0 0;
+      border-radius: 40px 40px 0 0;
       padding-bottom: 31em;
    }
+   .memories-we-made {
+      padding-bottom: 41.1em;
+   }
    .the-dreams-were-living-bg {
-      border-radius: 50px 50px 0 0;
+      border-radius: 40px 40px 0 0;
    }
    .the-dreams-we-re-living {
       margin-top: -117px;
    }
    .video-bg {
-      border-radius: 50px 50px 0 0;
+      border-radius: 40px 40px 0 0;
    }
    .gift-svgrepo-com-1-icon {
       width: 300px;
@@ -3295,8 +3504,85 @@ section.photo {
       left: 50%;
       rotate: -30deg;
    }
+   .the-dreams-were-living-bg {
+      margin-top: -155px;
+   }
 }
 @media screen and (max-width: 850px) {
+   .memories-we-made {
+      padding-bottom: 23.1em;
+   }
+   .mamores-bg-down-left-side-all-image {
+      left: 20px;
+   }
+   .mamores-bg-left-image {
+      width: 253.16px;
+      height: 251px;
+   }
+   .mamores-bg-left-image-1,
+   .mamores-bg-left-image-2,
+   .mamores-bg-left-image-3,
+   .mamores-bg-left-image-4 {
+      border-radius: 20px;
+      width: 150.83px;
+      height: 190.16px;
+   }
+   .mamores-bg-left-image-1 {
+      top: 105px;
+      left: -35px;
+   }
+   .mamores-bg-left-image-2 {
+      top: -65px;
+      left: 25px;
+   }
+   .mamores-bg-left-image-3 {
+      top: -121px;
+      left: 195px;
+   }
+   .mamores-bg-left-image-4 {
+      top: -15px;
+      left: 345px;
+      transform: rotate(75.719deg) scale(1, 1);
+   }
+   .the-dreams-were-living-bg {
+      margin-top: -77px;
+      padding-bottom: 23.1em;
+   }
+   .live-dream-bg-down-right-side-all-image {
+      right: 120px;
+   }
+   .live-dream-bg-right-image {
+      width: 253.16px;
+      height: 251px;
+   }
+   .live-dream-bg-right-image-1,
+   .live-dream-bg-right-image-2,
+   .live-dream-bg-right-image-3,
+   .live-dream-bg-right-image-4 {
+      border-radius: 20px;
+      width: 150.83px;
+      height: 190.16px;
+   }
+   .live-dream-bg-right-image-1 {
+      top: 105px;
+      left: -35px;
+   }
+   .live-dream-bg-right-image-2 {
+      top: -65px;
+      left: 25px;
+   }
+   .live-dream-bg-right-image-3 {
+      top: -121px;
+      left: 195px;
+   }
+   .live-dream-bg-right-image-4 {
+      top: -15px;
+      left: 345px;
+      transform: rotate(75.719deg) scale(1, 1);
+   }
+   .video {
+      margin-top: -233px;
+   }
    .promise-background-image-2 {
       top: 100px;
    }
@@ -3374,13 +3660,78 @@ section.photo {
       padding-bottom: 47px;
       box-sizing: border-box;
    }
+   .our-firts-meet {
+      padding-bottom: 1em;
+   }
+   .our-meet-bg-down-all-image {
+      left: -25px;
+   }
+   .our-first-meet-image {
+      width: 190.56px;
+      height: 189.64px;
+   }
+   .our-first-meet-image-1,
+   .our-first-meet-image-2,
+   .our-first-meet-image-3,
+   .our-first-meet-image-4 {
+      width: 129.44px;
+      height: 170.37px;
+      border-radius: 20px;
+   }
+   .our-first-meet-image-1 {
+      top: 50px;
+      left: -35px;
+   }
+   .our-first-meet-image-2 {
+      left: 55px;
+      top: -100px;
+   }
+   .our-first-meet-image-3 {
+      left: 211px;
+      top: -115px;
+   }
+   .our-first-meet-image-4 {
+      left: 315px;
+      top: 10px;
+   }
 
+   .akht {
+      margin-top: -175px;
+   }
    .akht-headding {
       font-size: 47px;
    }
    .akht-bg {
       border-radius: 50px 50px 0 0;
       padding-bottom: 6.5em;
+   }
+   .akht-bg-right-image {
+      width: 353.16px;
+      height: 351px;
+   }
+   .akht-bg-right-image-1,
+   .akht-bg-right-image-2,
+   .akht-bg-right-image-3,
+   .akht-bg-right-image-4 {
+      border-radius: 40px;
+      width: 207.83px;
+      height: 305.16px;
+   }
+   .akht-bg-right-image-1 {
+      top: -35px;
+      left: 145px;
+   }
+   .akht-bg-right-image-2 {
+      top: -15px;
+      left: 235px;
+   }
+   .akht-bg-right-image-3 {
+      top: 81px;
+      left: 275px;
+   }
+   .akht-bg-right-image-4 {
+      top: 171px;
+      left: 195px;
    }
    .akht-bg-image {
       height: 601px;
@@ -3391,6 +3742,7 @@ section.photo {
    }
    .memories {
       padding-bottom: 45px;
+      margin-top: -321px;
    }
    .memories-we-made {
       padding-bottom: 23em;
@@ -3408,6 +3760,7 @@ section.photo {
 
    .the-dreams-we-re-living {
       margin-top: -91px;
+      padding-bottom: -3.1em;
    }
    .the-dreams-were-living-wrapper {
       padding-bottom: var(--padding-21xl);
@@ -3498,11 +3851,8 @@ section.photo {
    .our-meet-background-image-x2 {
       height: 391px;
    }
-   .akht {
-      margin-top: -141px;
-   }
    .memories-we-made {
-      padding-bottom: 15em;
+      padding-bottom: 23em;
    }
    .mamories-image {
       height: 278px;
@@ -3670,6 +4020,119 @@ section.photo {
    }
 }
 @media screen and (max-width: 475px) {
+   .akht-bg-down-right-side-all-image {
+      right: -14px;
+   }
+
+   .akht-bg-right-image {
+      width: 179.3px;
+      height: 178.43px;
+   }
+   .akht-bg-right-image-1,
+   .akht-bg-right-image-2,
+   .akht-bg-right-image-3,
+   .akht-bg-right-image-4 {
+      border-radius: 20px;
+      width: 121.8px;
+      height: 160.3px;
+   }
+   .akht-bg-right-image-1 {
+      top: -20px;
+      left: 30px;
+      transform: rotate(71.031deg) scale(1, -1);
+   }
+   .akht-bg-right-image-2 {
+      top: 15px;
+      left: -5px;
+      transform: rotate(17.29deg) scale(1, -1);
+   }
+   .akht-bg-right-image-3 {
+      top: 85px;
+      left: -23px;
+      transform: rotate(-28.859deg) scale(1, -1);
+   }
+   .akht-bg-right-image-4 {
+      top: -15px;
+      left: -110px;
+      transform: rotate(97.967deg) scale(1, -1);
+   }
+   .memories {
+      margin-top: -231px;
+   }
+   .memories-we-made {
+      padding-bottom: 17em;
+   }
+   .mamores-bg-down-left-side-all-image {
+      left: 10px;
+   }
+   .mamores-bg-left-image {
+      width: 143.16px;
+      height: 141px;
+   }
+   .mamores-bg-left-image-1,
+   .mamores-bg-left-image-2,
+   .mamores-bg-left-image-3,
+   .mamores-bg-left-image-4 {
+      border-radius: 15px;
+      width: 110.83px;
+      height: 140.16px;
+   }
+   .mamores-bg-left-image-1 {
+      top: 65px;
+      left: -75px;
+   }
+   .mamores-bg-left-image-2 {
+      top: -55px;
+      left: 1px;
+   }
+   .mamores-bg-left-image-3 {
+      top: -101px;
+      left: 125px;
+   }
+   .mamores-bg-left-image-4 {
+      top: -15px;
+      left: 225px;
+      transform: rotate(75.719deg) scale(1, 1);
+   }
+   .the-dreams-were-living-bg {
+      margin-top: -27px;
+      padding-bottom: -7.1em;
+   }
+   .live-dream-bg-down-right-side-all-image {
+      right: 15px;
+   }
+   .live-dream-bg-left-image {
+      width: 143.16px;
+      height: 141px;
+   }
+   .live-dream-bg-right-image-1,
+   .live-dream-bg-right-image-2,
+   .live-dream-bg-right-image-3,
+   .live-dream-bg-right-image-4 {
+      border-radius: 15px;
+      width: 110.83px;
+      height: 140.16px;
+   }
+   .live-dream-bg-right-image-1 {
+      top: 95px;
+      left: -45px;
+   }
+   .live-dream-bg-right-image-2 {
+      top: -35px;
+      left: 1px;
+   }
+   .live-dream-bg-right-image-3 {
+      top: -91px;
+      left: 125px;
+   }
+   .live-dream-bg-right-image-4 {
+      top: -15px;
+      left: 245px;
+      transform: rotate(75.719deg) scale(1, 1);
+   }
+   .video {
+      margin-top: -243px;
+   }
    .promise-background-image-3 {
       bottom: 450px;
    }
@@ -3759,6 +4222,10 @@ section.photo {
       font-size: var(--font-size-19xl);
       line-height: 46px;
    }
+
+   .akht {
+      margin-top: -119px;
+   }
    .akht-bg {
       border-radius: 50px 50px 0 0;
       padding-bottom: 5em;
@@ -3791,10 +4258,7 @@ section.photo {
 }
 @media screen and (max-width: 425px) {
    .our-firts-meet {
-      padding-bottom: 0.5em;
-   }
-   .akht {
-      margin-top: -101px;
+      padding-bottom: 1em;
    }
    .our-meet-background-image {
       height: 251px;
@@ -3877,6 +4341,45 @@ section.photo {
    }
    .promise-background-image-3 {
       bottom: 570px;
+   }
+}
+@media only screen and (max-width: 300px) {
+   .our-firts-meet {
+      padding-bottom: 0.2em;
+   }
+   .our-meet-bg-down-all-image {
+      left: -17px;
+   }
+   .our-first-meet-image {
+      width: 110.56px;
+      height: 109.64px;
+   }
+   .our-first-meet-image-1,
+   .our-first-meet-image-2,
+   .our-first-meet-image-3,
+   .our-first-meet-image-4 {
+      width: 89.44px;
+      height: 130.37px;
+      border-radius: 10px;
+   }
+   .our-first-meet-image-1 {
+      top: 47px;
+      left: -20px;
+   }
+   .our-first-meet-image-2 {
+      left: 35px;
+      top: -55px;
+   }
+   .our-first-meet-image-3 {
+      left: 141px;
+      top: -65px;
+   }
+   .our-first-meet-image-4 {
+      left: 215px;
+      top: 10px;
+   }
+   .akht {
+      margin-top: -93px;
    }
 }
 @media screen and (max-width: 275px) {
